@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tonistorres.github.io/static/css/main.ae821e42.chunk.css",
+    "main.js": "/tonistorres.github.io/static/js/main.8af91425.chunk.js",
+    "main.js.map": "/tonistorres.github.io/static/js/main.8af91425.chunk.js.map",
+    "runtime-main.js": "/tonistorres.github.io/static/js/runtime-main.61853f76.js",
+    "runtime-main.js.map": "/tonistorres.github.io/static/js/runtime-main.61853f76.js.map",
+    "static/js/2.340913ce.chunk.js": "/tonistorres.github.io/static/js/2.340913ce.chunk.js",
+    "static/js/2.340913ce.chunk.js.map": "/tonistorres.github.io/static/js/2.340913ce.chunk.js.map",
+    "index.html": "/tonistorres.github.io/index.html",
+    "static/css/main.ae821e42.chunk.css.map": "/tonistorres.github.io/static/css/main.ae821e42.chunk.css.map",
+    "static/js/2.340913ce.chunk.js.LICENSE.txt": "/tonistorres.github.io/static/js/2.340913ce.chunk.js.LICENSE.txt",
+    "static/media/perfil.f8da81af.jpeg": "/tonistorres.github.io/static/media/perfil.f8da81af.jpeg",
+    "static/media/repoZero.63774a52.gif": "/tonistorres.github.io/static/media/repoZero.63774a52.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61853f76.js",
+    "static/js/2.340913ce.chunk.js",
+    "static/css/main.ae821e42.chunk.css",
+    "static/js/main.8af91425.chunk.js"
+  ]
+}
