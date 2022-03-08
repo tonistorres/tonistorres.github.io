@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
+/**Div Principal/Main --> Estilo Pertence a UserNumbers */
 export const ContainerMainUserNumber = styled.div`
-  align-items: flex-start;
-  /* border: 6px solid yellowgreen; */
+  align-items: center;
   display: flex;
-  height: 5vh;
+  height: 10vh;
   justify-content: space-around;
   margin-left: 4%;
   width: 90% ;
@@ -13,7 +13,8 @@ export const ContainerMainUserNumber = styled.div`
 export const NumberContainer = styled.div`
   align-items: center;
   background-color: #24292f;
-  /* border: 5px solid orange; */
+  border: 5px solid yellow;
+  border-radius: 5px 105px 25px;
   color: white;
   display: flex;
   flex-direction: row;
