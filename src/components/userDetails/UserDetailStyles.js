@@ -25,10 +25,10 @@ justify-content: space-around;
 width: 100%;
 `;
 
-/** */
+/**Container GitHub - Div Name Usuario - Contido em Div Usuário e Login */
 export const Name = styled.h2`
 /* border:15px solid red ; */
-color: #444;
+color: #24292f;
 font-size: 25px;
 font-weight: 700;
 text-align: center;
@@ -39,17 +39,20 @@ width: 100%;
 
 `;
 
-/** */
+/**Container GitHub - Div Username - Contido em Div Usuário e Login */
 export const Username = styled.h2`
-  width: 100%;
-  text-align: center;
+/* border:15px solid yellow ; */
+  color: #24292f;
   font-size: 25px;
   font-weight: 700;
-  color: #24292f;
-  span {
+  text-align: center;
+  width: 100%;
+    span {
     color: #e44d26;
   }
+
 `;
+
 export const Description = styled.p`
   border: 1px solid #999;
   color: #777;
