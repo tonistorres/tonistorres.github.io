@@ -162,6 +162,12 @@ export default class ContainerListaProjetos extends Component {
                         <td>False</td>
                     </tr>
 
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-localiza%C3%A7%C3%A3o-da-esta%C3%A7%C3%A3o-espacial-activity-6885983572746878976-zidi' target="_blank" rel="noreferrer">Projeto: Localização da Estação Espacial (ISS).</a></td>
+                        <td>False</td>
+                    </tr>
+
                     
 
                     
