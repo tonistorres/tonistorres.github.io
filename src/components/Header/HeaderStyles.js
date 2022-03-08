@@ -66,7 +66,7 @@ export const ContainerLista = styled.section`
   /* 1º Intervalo de configuração WDTH */
   @media screen and (max-width: 2300px) and (min-width: 1540px) {
   align-items: center;
-  background-color: #24292F;
+  background-color: #24292f;
   color:#F5F5F5 ;
   font-size: 28px;
   display: flex;

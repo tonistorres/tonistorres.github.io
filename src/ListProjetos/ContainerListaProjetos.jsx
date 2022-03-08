@@ -4,7 +4,8 @@ import UserDetails from '../components/userDetails/UserDetails';
 import {
     ContainerHeader,
     ContainerManLisProjetos,
-    ContainerTitle
+    ContainerTitle,
+    ContainerTable
 
 } from './ContainerListaProjetoStyles';
 
@@ -14,12 +15,8 @@ export default class ContainerListaProjetos extends Component {
         return (
 
             <ContainerManLisProjetos>
-                <ContainerHeader>
-                    <ContainerTitle>Links Projetos</ContainerTitle>
-                    <UserPicture url={url} alternativeText="imagem" />
-                </ContainerHeader>
                 <UserDetails name={name} login={login} bio={bio} />
-
+                <ContainerTable>
                 <table>
                     <tr>
                         <th>Fonte</th>
@@ -41,6 +38,47 @@ export default class ContainerListaProjetos extends Component {
 
                     </tr>
                     <tr>
+                    <td>GitHub</td>
+                    <td><a href="https://tonistorres.github.io/clone-mercado-livre/" target="_blank" rel="noreferrer"> Carrinho de Compras (Class of component)</a></td>
+                    <td>True</td>
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td><a href="https://tonistorres.github.io/carta_misteriosa/" target="_blank" rel="noreferrer" >Carta Misteriosa Habilidades:Manipular Dom, Css e Java Script</a></td>
+                        <td>True</td>
+
+
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td><a href="https://tonistorres.github.io/lesson_learned/" target="_blank" rel="noreferrer" >Lições Aprendidas:Manipular Dom, Css e Java Script</a></td>
+                        <td>True</td>
+
+
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td><a href="https://tonistorres.github.io/meme_generator/" target="_blank" rel="noreferrer" >Meme Generator:Manipular Dom, Css e Java Script</a></td>
+                        <td>True</td>
+
+
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td><a href="https://tonistorres.github.io/color_guess/" target="_blank" rel="noreferrer" >Color Guess:Manipular Dom, Css e Java Script</a></td>
+                        <td>True</td>
+
+
+                    </tr>
+                    <tr>
+                        <td>GitHub</td>
+                        <td><a href="https://tonistorres.github.io/project_conceitos_redux_1/" target="_blank" rel="noreferrer" >Redux: Conceitos iniciais JS Puro</a></td>
+                        <td>True</td>
+
+
+                    </tr>
+
+                    <tr>                        
                         <td>Linkedin</td>
                         <td><a href='https://www.linkedin.com/posts/tonistorres_para-aproveitar-a-semana-on-estudar-l%C3%B3gica-ugcPost-6874025418903584768-6Yxw' target='_blank' rel="noreferrer">Projeto ToDoList Test RTL(React Testing Library) </a></td>
                         <td>False</td>
@@ -77,6 +115,7 @@ export default class ContainerListaProjetos extends Component {
 
                     </tr>
                 </table>
+                </ContainerTable>   
             </ContainerManLisProjetos>
         )
     }

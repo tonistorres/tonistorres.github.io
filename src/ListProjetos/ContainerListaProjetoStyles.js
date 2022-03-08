@@ -5,6 +5,27 @@ import styled from "styled-components";
 export const ContainerManLisProjetos = styled.div`
 align-items: center;
 background-color: #24292F;
+/* border:2px solid #24292F; */
+border:12px solid green;
+/* border-top: 2px solid #24292F; */
+/* border-top: 12px solid red; */
+/* border-bottom: 8px solid #24292F; */
+border-radius: 15px;
+color: #F5F5F5;
+display: flex;
+flex-direction: column;
+height:81vh ;
+line-height: 1.8;
+margin-top: 0.5%;
+width: 38%;
+a:visited {
+  color: #E44D26;
+}
+`;
+
+export const ContainerTable=styled.div`
+align-items: center;
+background-color: #24292F;
 border:2px solid #24292F;
 border-top: 12px solid #24292F;
 border-bottom: 8px solid #24292F;
@@ -17,11 +38,14 @@ line-height: 1.8;
 margin-top: 0.5%;
 overflow: scroll; 
 overflow-x: hidden;
-width: 28%;
+width: 100%;
 a:visited {
   color: #E44D26;
 }
+
 `;
+
+
 export const ContainerTitle=styled.h1` 
 color:  #24292F;
 margin-left: 15%;
@@ -36,13 +60,14 @@ font-weight: 800;
 export const ContainerHeader =styled.div` 
 align-items: center;
 background-color:#F5F5F5;
-border:10px solid #e44d26;
+/* border:10px solid #e44d26; */
 border-radius: 15px;
 display: flex;
 flex-direction: row;
 justify-content: center;
 margin-top: 0.5%;
+margin-bottom: 1.5%;
 width: 100%;
-height:30vh ;
+height:25vh ;
 
 `;

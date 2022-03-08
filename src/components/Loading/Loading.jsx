@@ -21,11 +21,9 @@ import {
      ImagemTecnologiaUbuntu
 
     } from './LoadingStyles'
-import { Route, Switch } from 'react-router-dom';
-import ImgPerfil from './perfil.jpeg';
-import '../../index.css';
 import Home from '../../pages/Home/Home';
-import Timer from './Timer';
+import { Route, Switch } from "react-router";
+import ImgPerfil from './perfil.jpeg';
 import Contador from '../Contador/Contador';
 //https://www.youtube.com/watch?v=SR8755C0bME
 
@@ -49,7 +47,7 @@ export default class Loading extends Component {
 
         const { redirect, loading } = this.state;
 
-        setTimeout(this.handleState, 30000);
+        setTimeout(this.handleState, 4000);
          if (redirect) {
             return (
                 <>

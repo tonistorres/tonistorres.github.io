@@ -4,7 +4,7 @@ export default class Contador extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            segundos: 30,
+            segundos: 4,
             minutos: 0
         }
 

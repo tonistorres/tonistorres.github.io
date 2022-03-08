@@ -11,6 +11,7 @@ import UserDetails from '../../components/userDetails/UserDetails.jsx';
 import UserNumbers from '../../components/userNumbers/UserNumbers.jsx';
 import ResultadoDaPesquisaProjetosGitHub from '../../components/ListComponent/ResultadoPesquisaListaProjetos';
 import { FiSearch } from 'react-icons/fi';
+
 import {
     ContainerMain,
     HeaderTitle,
@@ -18,11 +19,13 @@ import {
     HeaderInput,
     HeaderSearchButton,
 } from './HomeStyles';
+
 import '../../index.css';
 import client from '../../services/client';
 import Fotter from '../../components/Fotter/Fotter';
 
 import ContainerListaDeProjetos from '../../ListProjetos/ContainerListaProjetos';
+
 import { TitleMap } from '../../components/ListComponent/ResultadoDaPesquisaListaStyles';
 
 export default class Home extends Component {
@@ -269,6 +272,7 @@ export default class Home extends Component {
                 <Header />
                 <ContainerMain>
                     <UserContainer>
+                        
                         <HeaderInputContainer>
                             <HeaderTitle>GitHub</HeaderTitle>
                             <HeaderInput
@@ -283,10 +287,12 @@ export default class Home extends Component {
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
                             <PropagateLoader color={"#E44D26"} loading={loading} size={20} />
                         </HeaderInputContainer>
+
                         <UserDetails name={nameValue} login={loginValue} bio={bioValue} />
                         <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
                         <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>
                     </UserContainer>
+
                     <TitleMap></TitleMap>
                     <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} />
                 </ContainerMain>

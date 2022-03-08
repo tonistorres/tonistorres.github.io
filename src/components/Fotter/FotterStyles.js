@@ -138,88 +138,88 @@ width: 100%;
 `;
 
 export const BorderKeyFumcaInformativa = keyframes`
-0%{
-  border-radius: 15px;
-  background: #24292F;
-  color:#999;
-  box-shadow:0 0 30px #ffff52;
+  0%{
+    border-radius: 15px;
+    background: #24292F;
+    color:#999;
+    box-shadow:0 0 30px #ffff52;
 
-}
+  }
 
-10%{
-  border-radius: 20px;
-  background: #24292F;
-  color:#999;
-  box-shadow:0 0 40px #ffff52;
-}
-
-
-20%{
-  background: #24292F;
-  border-radius: 25px;
-  color:#999;
-  box-shadow:0 0 50px #ffff52;
-}
+  10%{
+    border-radius: 20px;
+    background: #24292F;
+    color:#999;
+    box-shadow:0 0 40px #ffff52;
+  }
 
 
-30%{
-  background: #24292F;
-  border-radius: 45px;
-  color:#999;
-  box-shadow:0 0 60px #ffff52;
-}
-
-40%{
-  background: #24292F;
-  border-radius: 45px;
-  color:#999;
-  box-shadow:0 0 70px #ffff52;
-}
+  20%{
+    background: #24292F;
+    border-radius: 25px;
+    color:#999;
+    box-shadow:0 0 50px #ffff52;
+  }
 
 
-50%{
-  background: #24292F;
-  border-radius: 45px;
-  color:#999;
-  box-shadow:0 0 80px #ffff52;
-}
+  30%{
+    background: #24292F;
+    border-radius: 45px;
+    color:#999;
+    box-shadow:0 0 60px #ffff52;
+  }
 
-60%{
-  background: #24292F;
-  border-radius: 40px;
-  color:#999;
-  box-shadow:0 0 90px #ffff52;
-}
-
-
-70%{
-  background: #24292F;
-  border-radius: 35px;
-  color:#999;
-  box-shadow:0 0 100px #ffff52;
-}
+  40%{
+    background: #24292F;
+    border-radius: 45px;
+    color:#999;
+    box-shadow:0 0 70px #ffff52;
+  }
 
 
-80%{
-  background: #24292F;
-  border-radius: 25px;
-  color:#999;
-  box-shadow:0 0 110px #ffff52;
-}
+  50%{
+    background: #24292F;
+    border-radius: 45px;
+    color:#999;
+    box-shadow:0 0 80px #ffff52;
+  }
+
+  60%{
+    background: #24292F;
+    border-radius: 40px;
+    color:#999;
+    box-shadow:0 0 90px #ffff52;
+  }
 
 
-90%{
-  background: #24292F;
-  border-radius: 20px;
-  color:#999;
-  box-shadow:0 0 120px #ffff52;
-}
+  70%{
+    background: #24292F;
+    border-radius: 35px;
+    color:#999;
+    box-shadow:0 0 100px #ffff52;
+  }
 
-100%{
-  background: #24292F;
-  border-radius: 10px;
-  color:#999;
-  box-shadow:0 0 19px #333;
-}
+
+  80%{
+    background: #24292F;
+    border-radius: 25px;
+    color:#999;
+    box-shadow:0 0 110px #ffff52;
+  }
+
+
+  90%{
+    background: #24292F;
+    border-radius: 20px;
+    color:#999;
+    box-shadow:0 0 120px #ffff52;
+  }
+
+  100%{
+    background: #24292F;
+    border-radius: 10px;
+    color:#999;
+    box-shadow:0 0 19px #333;
+  }
 
 `
