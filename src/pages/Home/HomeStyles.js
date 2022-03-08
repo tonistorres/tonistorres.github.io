@@ -54,7 +54,7 @@ export const HeaderTitle = styled.h1`
 export const HeaderInputContainer = styled.div`
   align-items: center;
   background-color: #24292F;
-  border: 2px solid yellowgreen;
+  border: 8px solid yellow;
   border-radius:5px 175px 5px ;
   display: flex;
   flex-direction: row;
@@ -67,7 +67,7 @@ export const HeaderInputContainer = styled.div`
 export const HeaderInput = styled.input`
   width: 100%;
   height: 40px;
-  border-radius: 15px;
+  border-radius: 5px 105px 25px;
   border: none;
   padding: 0 16px;
   color: #ff7a00;
