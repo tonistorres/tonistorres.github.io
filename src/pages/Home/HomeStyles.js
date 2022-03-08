@@ -58,28 +58,29 @@ export const HeaderInputContainer = styled.div`
   border-radius:5px 175px 5px ;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  height:15vh ;
+  height:17vh ;
   width: 98%;
 `;
 
 
 export const HeaderInput = styled.input`
-  width: 100%;
-  height: 40px;
+    
+  background-color:yellow ;
   border-radius: 5px 105px 25px;
   border: none;
+  color: #24292F;
+  font-size: 22px;
+  font-weight: 500;
+  height: 60px;
   padding: 0 16px;
-  color: #ff7a00;
-  font-size: 15px;
-  font-weight: 200;
   transition: 0.4s ease;
   text-align: center;
+  width: 100%;
 
   &:focus {
     outline: none;
+    transition: 0.4s eas100;
     width: 220px;
-    transition: 0.4s eas100
     }
 `;
 
