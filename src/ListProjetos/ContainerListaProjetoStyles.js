@@ -10,14 +10,14 @@ align-items: center;
 /* border-top: 2px solid #24292F; */
 /* border-top: 12px solid red; */
 /* border-bottom: 8px solid #24292F; */
-border:12px solid yellow;
+/* border:12px solid yellow; */
 border-radius: 15px;
 color: #F5F5F5;
 display: flex;
 flex-direction: column;
 height:83vh ;
 line-height: 1.8;
-width: 50%;
+width: 45%;
 a:visited {
   color: #E44D26;
 }
@@ -41,6 +41,9 @@ overflow-x: hidden;
 width: 100%;
 a:visited {
   color: #E44D26;
+}
+table {
+  width :100%;
 }
 
 th {

@@ -16,7 +16,7 @@ export const Section = styled.section`
   margin-left: 1%;
   margin-bottom: 1%;
   margin-right: 1%;
-  width: 50%;
+  width: 45%;
   /* overflow: scroll; 
   overflow-x:hidden; */
 `;
