@@ -90,21 +90,19 @@ export const HeaderSearchButton = styled.button`
   border-radius: 50%;
   border: none;
   background: #fff;
-  margin-left: 5px;
+  margin-left: 25px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: #24292F;
   /* transition: ease 0.3s; */
 
-  &:hover {
-    /* transform: scale(1.05);
-    transition: ease 0.3s; */
+  /* &:hover {
     cursor: pointer;
     border:1px solid #24292F;
     box-shadow: 0 0 10px #999;
 
-  }
+  } */
 `;
 
 export const ContainerColumnMain = styled.section`
