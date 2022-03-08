@@ -137,8 +137,37 @@ export default class ContainerListaProjetos extends Component {
                         <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-java-desktop-trabalhando-em-uma-activity-6902634318921904129-6dOQ' target="_blank" rel="noreferrer">Conectando uma aplicação Java Deskp com MYSQ dockerizado</a></td>
                         <td>False</td>
                     </tr>
+
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-app-de-receita-trybe-matheus-goyas-activity-6902083260458115072-RCOM' target="_blank" rel="noreferrer">Projeto App de Receitas</a></td>
+                        <td>False</td>
+                    </tr>
+
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_final-de-semana-puxado-e-quando-me-lembro-activity-6898799184460554240-Qc11' target="_blank" rel="noreferrer">Modelando Projeto Clinica JavaSE</a></td>
+                        <td>False</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-tr%C3%ADvia-jogo-de-perguntas-e-respostas-activity-6893316213951590400-5fkO' target="_blank" rel="noreferrer">Projeto: Trívia - Jogo de Perguntas e Respostas.</a></td>
+                        <td>False</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_exerc%C3%ADcio-trabalhando-formul%C3%A1rio-com-redux-activity-6886137216125419520-p7UG' target="_blank" rel="noreferrer">Projeto: Trívia - Jogo de Perguntas e Respostas.</a></td>
+                        <td>False</td>
+                    </tr>
+
+                    
+
                     
                     
+                    
+
                 </table>
                 </ContainerTable>   
             </ContainerManLisProjetos>
