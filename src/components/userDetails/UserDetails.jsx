@@ -11,8 +11,6 @@ import{
             <Name> <span>Usuários:  </span>{props?.name}</Name>
             <Username><span>Login:  </span>{props?.login}</Username>
             </ContainerNameLogin>
-            {/* <span>Resumo:  </span> */}
-            {/* <Description>{props?.bio}</Description> */}
         </Container>
     );
     
