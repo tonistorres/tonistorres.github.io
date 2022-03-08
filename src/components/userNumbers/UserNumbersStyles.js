@@ -18,7 +18,7 @@ export const NumberContainer = styled.div`
   color: white;
   display: flex;
   flex-direction: row;
-  height: 5vh;
+  height: 7vh;
   justify-content: center;
   margin-top: 0.5%;
   width: 29%;
@@ -41,10 +41,8 @@ export const NumberContainer = styled.div`
     /* https://cssgradient.io/ */
     background: linear-gradient(
       180deg,
-      rgba(235, 233, 224, 1) 100%,
-      
-      
-    );
+      rgba(235, 233, 224, 1) 100%,    
+  );
 
     border-radius: 3px;
     transition: 0.4s ease;

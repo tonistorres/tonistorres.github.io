@@ -3,13 +3,11 @@ import styled from "styled-components";
 //Max 30 Repo GitHub - ListComponent //
 //***********************************/
 export const ContainerMap = styled.div`
-  /* background: rgba(255, 255, 255, 0.95); */
+  
   background-color: #24292F;
   border: 1px solid #333;
   border-radius: 10px;
-  /* border-bottom: 10px solid #ff7a00; */
-  
-  border-top: 8px solid #24292f;
+  border: 10px solid #ff7a00;
   color: #fff;
   display: flex;
   font-size: 15px;
@@ -22,7 +20,7 @@ export const ContainerMap = styled.div`
   overflow: scroll;
   overflow-x: hidden;
   padding: 0%.5% 1.5%;
-  width: 97%;
+  width: 70%;
   td {
     font-size: 16px;
     text-align: center;
