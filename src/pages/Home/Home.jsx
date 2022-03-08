@@ -26,8 +26,6 @@ import Fotter from '../../components/Fotter/Fotter';
 
 import ContainerListaDeProjetos from '../../ListProjetos/ContainerListaProjetos';
 
-import { TitleMap } from '../../components/ListComponent/ResultadoDaPesquisaListaStyles';
-
 export default class Home extends Component {
     constructor(props) {
         super(props);

@@ -6,8 +6,8 @@ import styled from "styled-components";
 export const Section = styled.section`
   background: rgba(255, 255, 255, 0.95);
   border-radius: 15px;
-  border-top: 10px solid #24292F;
-  border-bottom: 10px solid #24292F;
+  /* border-top: 10px solid #24292F;
+  border-bottom: 10px solid #24292F; */
   display: flex;
   flex-direction: column;
   height:81vh;
@@ -16,7 +16,7 @@ export const Section = styled.section`
   margin-left: 1%;
   margin-bottom: 1%;
   margin-right: 1%;
-  width: 35%;
+  width: 50%;
   /* overflow: scroll; 
   overflow-x:hidden; */
 `;
