@@ -1,17 +1,13 @@
 import React, { Component } from 'react'
-import UserPicture from '../components/userPicture/UserPicture';
 import UserDetails from '../components/userDetails/UserDetails';
 import {
-    ContainerHeader,
     ContainerManLisProjetos,
-    ContainerTitle,
     ContainerTable
-
 } from './ContainerListaProjetoStyles';
 
 export default class ContainerListaProjetos extends Component {
     render() {
-        const { url, name, login, bio } = this.props;
+        const {  name, login, bio } = this.props;
         return (
 
             <ContainerManLisProjetos>

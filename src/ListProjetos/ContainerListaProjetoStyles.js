@@ -6,7 +6,7 @@ export const ContainerManLisProjetos = styled.div`
 align-items: center;
 background-color: #24292F;
 /* border:2px solid #24292F; */
-border:12px solid green;
+/* border:12px solid green; */
 /* border-top: 2px solid #24292F; */
 /* border-top: 12px solid red; */
 /* border-bottom: 8px solid #24292F; */
