@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import UserDetails from '../components/userDetails/UserDetails';
 import {
     ContainerManLisProjetos,
     ContainerTable
