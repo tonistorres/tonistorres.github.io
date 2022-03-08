@@ -48,10 +48,14 @@ export const HeaderTitle = styled.h1`
   width: 60%;
   /* border: 2px solid yellow; */
 `;
+
+
+/**Container GitHub - Div Principal  */
 export const HeaderInputContainer = styled.div`
   align-items: center;
   background-color: #24292F;
-  /* border: 2px solid yellowgreen; */
+  border: 2px solid yellowgreen;
+  border-radius:5px 175px 5px ;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
