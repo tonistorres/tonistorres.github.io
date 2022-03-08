@@ -4,7 +4,7 @@ import styled from "styled-components";
 //********************************* */
 export const ContainerManLisProjetos = styled.div`
 align-items: center;
-background-color: #24292F;
+/* background-color: #24292F; */
 /* border:2px solid #24292F; */
 /* border:12px solid green; */
 /* border-top: 2px solid #24292F; */
@@ -14,9 +14,8 @@ border-radius: 15px;
 color: #F5F5F5;
 display: flex;
 flex-direction: column;
-height:81vh ;
+height:83vh ;
 line-height: 1.8;
-margin-top: 0.5%;
 width: 38%;
 a:visited {
   color: #E44D26;
@@ -25,12 +24,12 @@ a:visited {
 
 export const ContainerTable=styled.div`
 align-items: center;
-background-color: #24292F;
+/* background-color: #24292F; */
 border:2px solid #24292F;
 border-top: 12px solid #24292F;
 border-bottom: 8px solid #24292F;
 border-radius: 15px;
-color: #F5F5F5;
+color: #24292F;
 display: flex;
 flex-direction: column;
 height:81vh ;

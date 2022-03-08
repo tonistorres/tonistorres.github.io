@@ -7,11 +7,8 @@ import {
 
 export default class ContainerListaProjetos extends Component {
     render() {
-        const {  name, login, bio } = this.props;
-        return (
-
+       return (
             <ContainerManLisProjetos>
-                <UserDetails name={name} login={login} bio={bio} />
                 <ContainerTable>
                 <table>
                     <tr>
