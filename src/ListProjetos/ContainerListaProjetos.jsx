@@ -106,6 +106,33 @@ export default class ContainerListaProjetos extends Component {
                         <td>False</td>
 
                     </tr>
+                    
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-criar-um-rob%C3%B4-utilizando-sensor-activity-6906328703115366400-AkbO' target="_blank" rel="noreferrer">Projeto Sensor HC-SR04  </a></td>
+                        <td>False</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-app-de-receitas-interven%C3%A7%C3%A3o-bem-activity-6904517252809646080-D52v' target="_blank" rel="noreferrer">Refatorando App de Receitas  </a></td>
+                        <td>False</td>
+                    </tr>
+
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_existe-um-mito-no-meio-dos-devs-de-que-quem-activity-6903408926126411776-Bbt-' target="_blank" rel="noreferrer">Hello World com Arduino e C++  </a></td>
+                        <td>False</td>
+                    </tr>
+
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-rob%C3%B4sensor-de-presen%C3%A7a-objetivo-activity-6903104327960121344-8KKN' target="_blank" rel="noreferrer">Robô/Sensor de Presença </a></td>
+                        <td>False</td>
+                    </tr>
+                    
+                    
                 </table>
                 </ContainerTable>   
             </ContainerManLisProjetos>
