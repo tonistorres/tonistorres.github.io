@@ -3,7 +3,8 @@ import styled from "styled-components";
 /***Container GitHub - Div Principal -Main */
 export const Container = styled.div`
   align-items: center;
-  border:7px solid yellow;
+  background-color:#24292f;
+  /* border:7px solid yellow; */
   display: flex;
   height: 10vh;
   justify-content: space-around;
@@ -18,7 +19,9 @@ export const Container = styled.div`
 /**Container GitHub - Div Usuário e Login - Contida em Container */
 export const ContainerNameLogin=styled.div `
 align-items: center;
-border:7px solid red;
+background-color:whitesmoke ;
+/* border:7px solid red; */
+border-radius:5px 105px 5px ;
 display: flex;
 justify-content: space-around;
 width: 100%;

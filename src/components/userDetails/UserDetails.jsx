@@ -2,7 +2,6 @@ import{
     Container,
     Name,
     Username,
-    Description,
     ContainerNameLogin
     } from './UserDetailStyles';
     
