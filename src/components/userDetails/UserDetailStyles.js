@@ -4,24 +4,21 @@ export const Container = styled.div`
   align-items: center;
   border:7px solid yellow;
   display: flex;
-  
   height: 10vh;
   justify-content: space-around;
-  /* margin-top: 0.5%; */
-  
   width: 97%;
 
   span {
     color: #e44d26;
     font-weight: 800;
   }
+
 `;
 
 export const ContainerNameLogin=styled.div `
 align-items: center;
-/* border:7px solid red; */
+border:7px solid red;
 display: flex;
-height:3vh ;
 justify-content: space-around;
 width: 100%;
 `;
