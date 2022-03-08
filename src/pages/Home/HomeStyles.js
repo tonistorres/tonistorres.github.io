@@ -69,7 +69,7 @@ export const HeaderInput = styled.input`
   border-radius: 5px 105px 25px;
   border: none;
   color: #24292F;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 500;
   height: 60px;
   padding: 0 16px;

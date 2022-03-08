@@ -159,20 +159,20 @@ export default class Home extends Component {
             });
 
         } catch (error) {
-            if(error){
-            this.setState({
-                mensagemInfo: `Error acesso API :${error}.`,
-                loading: false
-            })
-            console.log('executando função Limpa mensagem');
-            this.limparMensagemInformativa();
+            if (error) {
+                this.setState({
+                    mensagemInfo: `Error acesso API :${error}.`,
+                    loading: false
+                })
+                console.log('executando função Limpa mensagem');
+                this.limparMensagemInformativa();
 
-            console.log('executando função mensagem Informtiva após o erro:');
-            this.barraInfoDificuldadesAcessoPerfil();
+                console.log('executando função mensagem Informtiva após o erro:');
+                this.barraInfoDificuldadesAcessoPerfil();
 
-            console.log('Da uma dica para usuariao melhorar sua experiencia');
-            this.verificaInputHeaderNull();
-        }
+                console.log('Da uma dica para usuariao melhorar sua experiencia');
+                this.verificaInputHeaderNull();
+            }
 
         }
     }
@@ -197,7 +197,7 @@ export default class Home extends Component {
             mensagemInfo: 'Verifique se você fez uma pesquisa de um valor nulo 🕵️'
         });
     }
-    
+
     // Verificar se login do usuário foi digitado corretamente
 
 
@@ -221,7 +221,7 @@ export default class Home extends Component {
     barraInfoDificuldadesAcessoPerfil() {
         const { searchedValue } = this.state;
         this.setState({ mensagemInfo: `😞 Dificuldades com API perfil não disponível ${searchedValue}.💁 Tente mais tarde!!` });
-        
+
     }
 
 
@@ -272,14 +272,14 @@ export default class Home extends Component {
                     <UserContainer>
                         <HeaderInputContainer>
                             <HeaderTitle>GitHub</HeaderTitle>
+
                             <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
                                 placeholder='Digite seu Login GitHub'
                                 onChange={this.handleChange}
                                 value={this.state.searchedValue}
-                            >
+                            />
 
-                            </HeaderInput>
                             <HeaderSearchButton value={searchedValue} onClick={this.handleGetUserDataTratado}><FiSearch /></HeaderSearchButton>
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
                             <PropagateLoader color={"#E44D26"} loading={loading} size={20} />
@@ -289,8 +289,6 @@ export default class Home extends Component {
                         <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
                         <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>
                     </UserContainer>
-                    {/* <TitleMap></TitleMap> */}
-
                     <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} />
 
                 </ContainerMain>
