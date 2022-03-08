@@ -41,14 +41,16 @@ export const NumberContainer = styled.div`
     /* https://cssgradient.io/ */
     background: linear-gradient(
       180deg,
-      rgba(36, 41, 47, 1) 41%,
-      rgba(255, 255, 255, 1) 100%
+      rgba(235, 233, 224, 1) 100%,
+      
+      
     );
 
     border-radius: 3px;
     transition: 0.4s ease;
     span {
       color: #333;
+      background-color:whitesmoke ;
     }
   }
 `;
