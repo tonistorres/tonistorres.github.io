@@ -8,7 +8,6 @@ export const Container = styled.div`
   height: 10vh;
   justify-content: space-around;
   width: 97%;
-
   span {
     color: #e44d26;
     font-weight: 800;
