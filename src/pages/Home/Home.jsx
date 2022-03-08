@@ -272,7 +272,6 @@ export default class Home extends Component {
                 <Header />
                 <ContainerMain>
                     <UserContainer>
-                        
                         <HeaderInputContainer>
                             <HeaderTitle>GitHub</HeaderTitle>
                             <HeaderInput
@@ -292,9 +291,10 @@ export default class Home extends Component {
                         <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
                         <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>
                     </UserContainer>
+                    {/* <TitleMap></TitleMap> */}
 
-                    <TitleMap></TitleMap>
                     <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} />
+
                 </ContainerMain>
                 <Fotter mensagem={mensagemInfo} />
             </div>

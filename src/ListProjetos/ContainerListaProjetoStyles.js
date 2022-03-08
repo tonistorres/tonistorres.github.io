@@ -37,9 +37,14 @@ line-height: 1.8;
 margin-top: 0.5%;
 overflow: scroll; 
 overflow-x: hidden;
-width: 100%;
+width: 80%;
 a:visited {
   color: #E44D26;
+}
+
+th {
+  background-color:#24292F;
+  color:#ffffff ;
 }
 
 `;

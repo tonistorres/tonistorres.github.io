@@ -9,7 +9,7 @@ export const ContainerMain = styled.section`
   /* 1.0 Intervalo de configuração VERTICAL - AQUI 1 */
   @media screen and (max-width: 2300px) and (min-width: 999px) {
     align-items:center ;
-    border: 2px solid #24292F;
+    border: 22px solid #24292F;
     border-radius: 15px;
     /* border-bottom: 10px solid #24292F; */
     border-bottom: 10px solid red;
