@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+/***Container GitHub - Div Principal -Main */
 export const Container = styled.div`
   align-items: center;
   border:7px solid yellow;
@@ -15,6 +16,7 @@ export const Container = styled.div`
 
 `;
 
+/**Container GitHub - Div Usuário e Login - Contida em Container */
 export const ContainerNameLogin=styled.div `
 align-items: center;
 border:7px solid red;
@@ -22,21 +24,27 @@ display: flex;
 justify-content: space-around;
 width: 100%;
 `;
+
+/** */
 export const Name = styled.h2`
-  color: #444;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  width: 100%;
+/* border:15px solid red ; */
+color: #444;
+font-size: 25px;
+font-weight: 700;
+text-align: center;
+width: 100%;
   span {
     color: #e44d26;
   }
+
 `;
+
+/** */
 export const Username = styled.h2`
   width: 100%;
   text-align: center;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 700;
   color: #24292f;
   span {
     color: #e44d26;
