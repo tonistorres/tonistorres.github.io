@@ -85,8 +85,8 @@ export const HeaderInput = styled.input`
 `;
 
 export const HeaderSearchButton = styled.button`
-  width: 120px;
-  height: 50px;
+  width: 185px;
+  height: 70px;
   border-radius: 50%;
   border: none;
   background: #fff;
