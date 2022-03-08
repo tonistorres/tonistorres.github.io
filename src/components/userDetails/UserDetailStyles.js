@@ -53,14 +53,18 @@ export const Username = styled.h2`
 
 `;
 
+
+/**Container GitHub - Div Descriptio - Contido em Div Usuário e Login 
+ * DESATIVADO
+ */
 export const Description = styled.p`
   border: 1px solid #999;
   color: #777;
   display: flex;
+  flex-wrap: wrap;
   font-size: 15px;
   height: 35px;
   justify-content: center;
-  flex-wrap: wrap;
   line-height: 1.3;
   margin: 10px 0;
   overflow: hidden;
