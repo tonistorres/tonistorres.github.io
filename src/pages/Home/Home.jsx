@@ -272,14 +272,12 @@ export default class Home extends Component {
                     <UserContainer>
                         <HeaderInputContainer>
                             <HeaderTitle>GitHub</HeaderTitle>
-
                             <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
                                 placeholder='Digite seu Login GitHub'
                                 onChange={this.handleChange}
                                 value={this.state.searchedValue}
                             />
-
                             <HeaderSearchButton value={searchedValue} onClick={this.handleGetUserDataTratado}><FiSearch /></HeaderSearchButton>
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
                             <PropagateLoader color={"#E44D26"} loading={loading} size={20} />

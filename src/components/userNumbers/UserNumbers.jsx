@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import { ContainerMainUserNumber, NumberContainer } from "./UserNumbersStyles";
-import createHistory from 'history/createBrowserHistory';
-
-;
 
 export default class UserNumbers extends Component {
     render() {
