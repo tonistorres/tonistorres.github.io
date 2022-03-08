@@ -19,9 +19,9 @@ export const Container = styled.div`
 /**Container GitHub - Div Usuário e Login - Contida em Container */
 export const ContainerNameLogin=styled.div `
 align-items: center;
-background-color:#9999 ;
+background-color:yellow ;
 /* border:7px solid red; */
-border-radius:5px 105px 5px ;
+border-radius:5px 105px 955px ;
 display: flex;
 justify-content: space-around;
 width: 100%;
@@ -36,7 +36,7 @@ font-weight: 700;
 text-align: center;
 width: 100%;
   span {
-    color: #e44d26;
+    color: #24292f;
   }
 
 `;
@@ -50,7 +50,7 @@ export const Username = styled.h2`
   text-align: center;
   width: 100%;
     span {
-    color: #e44d26;
+      color: #24292f;
   }
 
 `;

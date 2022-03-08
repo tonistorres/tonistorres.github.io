@@ -64,10 +64,6 @@ export const HeaderInputContainer = styled.div`
 `;
 
 
-
-
-
-
 export const HeaderInput = styled.input`
   width: 100%;
   height: 40px;
