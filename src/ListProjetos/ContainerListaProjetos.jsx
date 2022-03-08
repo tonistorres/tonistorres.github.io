@@ -132,6 +132,12 @@ export default class ContainerListaProjetos extends Component {
                         <td>False</td>
                     </tr>
                     
+                    <tr>
+                        <td>Linkedin</td>
+                        <td><a href='https://www.linkedin.com/posts/tonistorres_projeto-java-desktop-trabalhando-em-uma-activity-6902634318921904129-6dOQ' target="_blank" rel="noreferrer">Conectando uma aplicação Java Deskp com MYSQ dockerizado</a></td>
+                        <td>False</td>
+                    </tr>
+                    
                     
                 </table>
                 </ContainerTable>   
