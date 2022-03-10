@@ -4,13 +4,13 @@ import styled from "styled-components";
 //********************************* */
 export const ContainerManLisProjetos = styled.div`
 align-items: center;
-border-radius: 15px;
 color: #F5F5F5;
 display: flex;
 flex-direction: column;
 height:83vh ;
 line-height: 1.8;
-width: 45%;
+margin-left:3% ;
+width: 38%;
 a:visited {
   color: #E44D26;
 }
@@ -18,11 +18,12 @@ a:visited {
 
 export const ContainerTable=styled.div`
 align-items: center;
+background-color:#24292F ;
 border:2px solid #24292F;
-border-top: 12px solid #24292F;
+border-top: 17px solid #24292F;
 border-bottom: 8px solid #24292F;
-border-radius: 15px;
-color: #24292F;
+border-radius: 5px 55px 10px;
+color: whitesmoke;
 display: flex;
 flex-direction: column;
 height:81vh ;
@@ -32,7 +33,7 @@ overflow: scroll;
 overflow-x: hidden;
 width: 100%;
 a:visited {
-  color: #E44D26;
+  color: yellow;
 }
 table {
   width :100%;
