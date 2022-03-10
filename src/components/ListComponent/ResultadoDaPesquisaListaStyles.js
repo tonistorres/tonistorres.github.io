@@ -6,14 +6,14 @@ export const ContainerMap = styled.div`
   
   background-color: #24292F;
   border: 1px solid #333;
-  border-radius: 10px;
-  border: 10px solid #ff7a00;
+  border-radius: 5px;
+  /* border: 10px solid #ff7a00; */
   color: #fff;
   display: flex;
   font-size: 15px;
   font-weight: 200;
   flex-direction: column;
-  height:55vh ;
+  height:100vh ;
   line-height: 0.8;
   justify-content: space-around;
   margin-top: 10px;
