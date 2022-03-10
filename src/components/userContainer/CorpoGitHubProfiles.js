@@ -6,7 +6,6 @@ import styled from "styled-components";
 export const Section = styled.section`
 align-items:center ;
   background: rgba(255, 255, 255, 0.95);
-  /* border: 2px solid blue; */
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -16,6 +15,4 @@ align-items:center ;
   margin-bottom: 1%;
   margin-right: 1%;
   width: 45%;
-  /* overflow: scroll; 
-  overflow-x:hidden; */
 `;

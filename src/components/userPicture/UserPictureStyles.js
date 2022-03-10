@@ -13,8 +13,8 @@ export const ProfilePicture = styled.img`
     border-radius: 50%;
     border: 2px solid #24292F;
     display: flex;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-top: 10px;
     
     `;
