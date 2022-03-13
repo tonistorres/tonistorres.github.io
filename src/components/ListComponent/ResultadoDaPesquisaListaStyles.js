@@ -44,6 +44,12 @@ export const ContainerMap = styled.div`
       border-radius:5px 175px 5px;
   }
 
+
+  ::-webkit-scrollbar-thumb:hover{
+      background-color:whitesmoke;
+      border-radius:5px 175px 5px;
+  }
+
   ::-webkit-scrollbar-button{
       background-color:orangered;
       border-radius:5px 75px 5px;
