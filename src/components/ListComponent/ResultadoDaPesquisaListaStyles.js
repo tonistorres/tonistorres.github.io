@@ -9,7 +9,7 @@ export const ContainerMap = styled.div`
   /* border: 10px solid #ff7a00; */
   color: #fff;
   display: flex;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 200;
   flex-direction: column;
   height:100vh ;
@@ -18,31 +18,35 @@ export const ContainerMap = styled.div`
   margin-top: 10px;
   overflow: scroll;
   overflow-x: hidden;
-  padding: 0%.5% 1.5%;
+  padding-top:25px;
   width: 70%;
   td {
     font-size: 16px;
+    letter-spacing:2px ;
     text-align: center;
-  }
+    padding-top:2.5px;
+    }
 
   ::-webkit-scrollbar{
     width:35px;
-    border-radius: 5px 175px 5px;
-    
-    
+
   }
 
   ::-webkit-scrollbar-track{
     background-color:yellow;
     width:15px;
-    border-radius: 5px 175px 5px;
+
+  }
+
+  ::-webkit-scrollbar-thumb{
+     background-color:green;
   }
 
   ::-webkit-scrollbar-button{
-    width:15px;
-    /* background-color:#24292F; */
-    background-color:orangered;
+      background-color:orangered;
   }
+
+
 `;
 
 export const TitleMap = styled.h3`
