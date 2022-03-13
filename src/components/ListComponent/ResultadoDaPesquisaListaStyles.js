@@ -28,7 +28,7 @@ export const ContainerMap = styled.div`
   ::-webkit-scrollbar{
     width:35px;
     border-radius: 5px 175px 5px;
-    background-color:#24292F;
+    
     
   }
 
@@ -36,6 +36,12 @@ export const ContainerMap = styled.div`
     background-color:yellow;
     width:15px;
     border-radius: 5px 175px 5px;
+  }
+
+  ::-webkit-scrollbar-button{
+    width:15px;
+    /* background-color:#24292F; */
+    background-color:orangered;
   }
 `;
 
