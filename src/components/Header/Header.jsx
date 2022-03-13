@@ -11,7 +11,9 @@ export default class Header extends Component {
                         <ContainerLista>
                             <p>Home</p>                                
                             <p>About</p>
-                            <p>Portifolio</p>
+                            <p>Skills</p>
+                            <p>Projects</p>
+                            <p>Contact</p>
                         </ContainerLista>
                         <ContainerLogo>
                             {/* <img src={logo} alt="Logo" /> */}
