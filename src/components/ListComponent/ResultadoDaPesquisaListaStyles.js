@@ -40,12 +40,12 @@ export const ContainerMap = styled.div`
   }
 
   ::-webkit-scrollbar-thumb{
-      background-color:whitesmoke;
+      background-color:yellow;
       border-radius:5px 175px 5px;
   }
 
   ::-webkit-scrollbar-button{
-      background-color:yellow;
+      background-color:orangered;
       border-radius:5px 75px 5px;
   }
 
