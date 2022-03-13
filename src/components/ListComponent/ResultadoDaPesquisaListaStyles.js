@@ -26,8 +26,15 @@ export const ContainerMap = styled.div`
   }
 
   ::-webkit-scrollbar{
-    width:25px;
+    width:35px;
+    border-radius: 5px 175px 5px;
     background-color:#24292F;
+    
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color:yellow;
+    width:15px;
     border-radius: 5px 175px 5px;
   }
 `;
