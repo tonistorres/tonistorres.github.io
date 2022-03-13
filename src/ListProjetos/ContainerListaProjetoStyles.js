@@ -43,6 +43,34 @@ th {
   background-color:#24292F;
   color:#ffffff ;
 }
+::-webkit-scrollbar{
+    width:25px;
+    border-radius:5px 175px 5px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color:#24292F;
+    border-radius:5px 175px 5px;
+    width:20px;
+
+  }
+
+  ::-webkit-scrollbar-thumb{
+      background-color:yellow;
+      border-radius:5px 175px 5px;
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover{
+      background-color:whitesmoke;
+      border-radius:5px 175px 5px;
+  }
+
+  ::-webkit-scrollbar-button{
+      background-color:orangered;
+      padding:2px 2px ;
+      border-radius:15px 55px 5px;
+  }
 
 `;
 

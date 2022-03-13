@@ -52,7 +52,8 @@ export const ContainerMap = styled.div`
 
   ::-webkit-scrollbar-button{
       background-color:orangered;
-      border-radius:5px 75px 5px;
+      padding:2px 2px ;
+      border-radius:15px 55px 5px;
   }
 
 
