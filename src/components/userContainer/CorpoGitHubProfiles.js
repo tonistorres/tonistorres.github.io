@@ -5,12 +5,12 @@ import styled from "styled-components";
 //https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow
 export const Section = styled.section`
 align-items:center ;
-  /* background: rgba(255, 255, 255, 0.95); */
-  border-radius: 15px;
+  background: yellow;
+  border-radius: 5px 175px 5px;
   display: flex;
   flex-direction: column;
-  height: 80vh;
-  margin-top: 1%;
+  height: 84vh;
+  margin-top: 1.5%;
   margin-left: 1%;
   margin-bottom: 1%;
   margin-right: 1%;

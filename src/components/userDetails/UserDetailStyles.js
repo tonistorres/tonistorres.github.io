@@ -19,7 +19,7 @@ export const Container = styled.div`
 /**Container GitHub - Div Usuário e Login - Contida em Container */
 export const ContainerNameLogin=styled.div `
 align-items: center;
-background-color:yellow ;
+background-color:#24292f ;
 /* border:7px solid red; */
 border-radius:5px 105px 955px ;
 display: flex;
@@ -30,13 +30,13 @@ width: 100%;
 /**Container GitHub - Div Name Usuario - Contido em Div Usuário e Login */
 export const Name = styled.h2`
 /* border:15px solid red ; */
-color: #24292f;
+color: whitesmoke;
 font-size: 25px;
 font-weight: 700;
 text-align: center;
 width: 100%;
   span {
-    color: #24292f;
+    color: whitesmoke;
   }
 
 `;
@@ -44,13 +44,13 @@ width: 100%;
 /**Container GitHub - Div Username - Contido em Div Usuário e Login */
 export const Username = styled.h2`
 /* border:15px solid yellow ; */
-  color: #24292f;
+  color: whitesmoke;
   font-size: 25px;
   font-weight: 700;
   text-align: center;
   width: 100%;
     span {
-      color: #24292f;
+      color: whitesmoke;
   }
 
 `;
@@ -61,7 +61,7 @@ export const Username = styled.h2`
  */
 export const Description = styled.p`
   border: 1px solid #999;
-  color: #777;
+  color: whitesmoke;
   display: flex;
   flex-wrap: wrap;
   font-size: 15px;
