@@ -5,8 +5,7 @@ import styled from "styled-components";
 export const ContainerMap = styled.div`
   
   background-color: #24292F;
-  border: 1px solid #333;
-  border-radius: 5px;
+  border-radius: 5px 75px 5px;
   /* border: 10px solid #ff7a00; */
   color: #fff;
   display: flex;
@@ -25,11 +24,17 @@ export const ContainerMap = styled.div`
     font-size: 16px;
     text-align: center;
   }
+
+  ::-webkit-scrollbar{
+    width:25px;
+    background-color:#24292F;
+    border-radius: 5px 175px 5px;
+  }
 `;
 
 export const TitleMap = styled.h3`
-  display: flex;
-  justify-content: center;
   background: rgba(255, 255, 255, 0.95);
   color: #555;
+  display: flex;
+  justify-content: center;
 `;
