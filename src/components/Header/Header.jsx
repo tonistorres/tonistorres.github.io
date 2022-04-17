@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import { ContainerMain, ContainerLogo, ContainerNavBar, ContainerLista } from './HeaderStyles';
-// import logo from './logoSite.png';
 
+// https://v5.reactrouter.com/web/api/Switch
 export default class Header extends Component {
     render() {
         return (
@@ -9,11 +10,11 @@ export default class Header extends Component {
                 <ContainerMain>
                     <ContainerNavBar>
                         <ContainerLista>
-                            <p>Home</p>                                
-                            <p>About</p>
-                            <p>Skills</p>
-                            <p>Projects</p>
-                            <p>Contact</p>
+                        <Link to="/">Home</Link>
+                            <Link to="/about">About</Link>
+                            <Link to="/skill">Skills</Link>
+                            <Link to="/skill">Projects</Link>
+                            <Link to="/skill">Contact</Link>                            
                         </ContainerLista>
                         <ContainerLogo>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
@@ -32,7 +33,7 @@ export default class Header extends Component {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />          
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
                         </ContainerLogo>
                     </ContainerNavBar>
                 </ContainerMain>
