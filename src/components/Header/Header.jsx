@@ -10,11 +10,11 @@ export default class Header extends Component {
                 <ContainerMain>
                     <ContainerNavBar>
                         <ContainerLista>
-                        <Link to="/">Home</Link>
+                            <Link to="/">Home</Link>
                             <Link to="/about">About</Link>
                             <Link to="/skill">Skills</Link>
-                            <Link to="/skill">Projects</Link>
-                            <Link to="/skill">Contact</Link>                            
+                            <Link to="/project">Projects</Link>
+                            <Link to="/contact">Contact</Link>                            
                         </ContainerLista>
                         <ContainerLogo>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
