@@ -18,9 +18,11 @@ import {
      ImagemTecnologiaMysql,
      ImagemTecnologiaGIT,
      ImagemTecnologiaGitHub,
-     ImagemTecnologiaUbuntu
-
+     ImagemTecnologiaUbuntu,
+    //  ImagemTecnologiaRedux,
+     ImagemTecnologiaDocker,
     } from './LoadingStyles'
+
 import Home from '../../pages/Home/Home';
 import { Route, Switch } from "react-router";
 import ImgPerfil from './perfil.jpeg';
@@ -63,16 +65,17 @@ export default class Loading extends Component {
             <TelaSplash>
                 
                 <ContainerLoading>
-                    <ImagemTecnologiaHTML src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html"SlideToSlideSlide={SlideToSlideSlide}/>
+                    <ImagemTecnologiaHTML src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html"SlideToSlideSlide={SlideToSlideSlide}/> 
                     <ImagemTecnologiaCSS src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  alt="css3"SlideToSlideSlide={SlideToSlideSlide}/>
                     <ImagemTecnologiaReact src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react"SlideToSlideSlide={SlideToSlideSlide}/>
                     <ImagemTecnologiaJS src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javaScript" SlideToSlideSlide={SlideToSlideSlide}/>
                     <ImagemTecnologiaJest src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest"SlideToSlideSlide={SlideToSlideSlide} />
-                    <ImagemTecnologiaBash src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="terminal bash"SlideToSlideSlide={SlideToSlideSlide}/>
-                    <ImagemTecnologiaMysql src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql"SlideToSlideSlide={SlideToSlideSlide} />
+                     <ImagemTecnologiaBash src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="terminal bash"SlideToSlideSlide={SlideToSlideSlide}/>
+                     <ImagemTecnologiaMysql src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql"SlideToSlideSlide={SlideToSlideSlide} />
                     <ImagemTecnologiaGIT src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" SlideToSlideSlide={SlideToSlideSlide}/>
                     <ImagemTecnologiaGitHub src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg " alt="gitHub"SlideToSlideSlide={SlideToSlideSlide}/>
                     <ImagemTecnologiaUbuntu src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" alt="ubuntu"SlideToSlideSlide={SlideToSlideSlide} />
+                    <ImagemTecnologiaDocker src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="docker" SlideToSlideSlide={ SlideToSlideSlide} />
                 </ContainerLoading>
                 <ContainerAlinhaRow>
                 <ClimbingBoxLoader color={"#F5F5F5"} loading={loading} size={80} />

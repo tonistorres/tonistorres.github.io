@@ -25,6 +25,8 @@ export const ContainerAlinhaRow = styled.section`
   justify-content: space-evenly;
   align-items: center;
 `;
+
+
 // https://www.youtube.com/watch?v=PgsoxuyXb-4
 export const ImagemTecnologiaHTML = styled.img`
   animation: ${(props) => props.SlideToSlideSlide} 7s ease infinite;
@@ -87,8 +89,8 @@ export const ImagemTecnologiaBash = styled.img`
   border: 5px solid #999;
   margin-top: 1px;
   margin-left: 51%;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 `;
 
 // https://www.youtube.com/watch?v=PgsoxuyXb-4
@@ -98,8 +100,8 @@ export const ImagemTecnologiaMysql = styled.img`
   border: 5px solid #999;
   margin-top: 1px;
   margin-left: 61%;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 `;
 // https://www.youtube.com/watch?v=PgsoxuyXb-4
 export const ImagemTecnologiaGIT = styled.img`
@@ -108,8 +110,8 @@ export const ImagemTecnologiaGIT = styled.img`
   border: 5px solid orange;
   margin-top: 1px;
   margin-left: 71%;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 `;
 
 // https://www.youtube.com/watch?v=PgsoxuyXb-4
@@ -119,8 +121,8 @@ export const ImagemTecnologiaGitHub = styled.img`
   border: 5px solid #999;
   margin-top: 1px;
   margin-left: 81%;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 `;
 
 // https://www.youtube.com/watch?v=PgsoxuyXb-4
@@ -130,8 +132,31 @@ export const ImagemTecnologiaUbuntu = styled.img`
   border: 5px solid #999;
   margin-top: 1px;
   margin-left: 91%;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
+`;
+
+
+// https://www.youtube.com/watch?v=PgsoxuyXb-4
+export const ImagemTecnologiaRedux= styled.img`
+  animation: ${(props) => props.SlideToSlideSlide} 7s ease infinite;
+  position: absolute;
+  border: 5px solid #999;
+  margin-top: 1px;
+  margin-left: 91%;
+  height: 40px;
+  width: 40px;
+`;
+
+// https://www.youtube.com/watch?v=PgsoxuyXb-4
+export const ImagemTecnologiaDocker= styled.img`
+  animation: ${(props) => props.SlideToSlideSlide} 7s ease infinite;
+  position: absolute;
+  border: 5px solid #999;
+  margin-top: 1px;
+  margin-left: 91%;
+  height: 40px;
+  width: 40px;
 `;
 
 // https://www.youtube.com/watch?v=PgsoxuyXb-4
