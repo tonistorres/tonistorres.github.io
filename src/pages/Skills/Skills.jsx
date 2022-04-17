@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { ContainerMain, ContainerLogo, ContainerNavBar, ContainerLista } from '../../components/Header/HeaderStyles';
 import Fotter from '../../components/Fotter/Fotter';
@@ -40,7 +40,7 @@ export default class Skills extends Component {
                     </ContainerLogo>
                 </ContainerNavBar>
             </ContainerMain>
-            <Fotter mensagem={ "Bem vindo à página de Contato" } />
+            <Fotter mensagem={ "Bem vindo à página de Skills" } />
         </>
         );
 
