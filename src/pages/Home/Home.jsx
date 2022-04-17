@@ -287,7 +287,7 @@ export default class Home extends Component {
                         <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
                         <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>
                     </UserContainer>
-                    <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} />
+                    {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
 
                 </ContainerMain>
                 <Fotter mensagem={mensagemInfo} />
