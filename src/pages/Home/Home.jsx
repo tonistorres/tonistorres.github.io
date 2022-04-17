@@ -1,10 +1,9 @@
 // https://www.youtube.com/watch?v=kqp1lNnv6K8&t=1325s  PropagateLoader
 
 import React, { Component } from 'react'
-// import { Route, Switch } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import UserContainer from '../../components/userContainer/CorpoGitHubProfile.jsx';
-// import About from '../About/About'
+
 import PropagateLoader from "react-spinners/PropagateLoader";
 import UserPicture from '../../components/userPicture/UserPicture.jsx';
 import UserDetails from '../../components/userDetails/UserDetails.jsx';
@@ -14,7 +13,7 @@ import { FiSearch } from 'react-icons/fi';
 
 import {
     ContainerMain,
-    HeaderTitle,
+    // HeaderTitle,
     HeaderInputContainer,
     HeaderInput,
     HeaderSearchButton,
@@ -24,7 +23,7 @@ import '../../index.css';
 import client from '../../services/client';
 import Fotter from '../../components/Fotter/Fotter';
 
-import ContainerListaDeProjetos from '../../ListProjetos/ContainerListaProjetos';
+// import ContainerListaDeProjetos from '../../ListProjetos/ContainerListaProjetos';
 
 export default class Home extends Component {
     constructor(props) {
@@ -256,10 +255,10 @@ export default class Home extends Component {
             followersValue,
             followingValue,
             arrayValue,
-            avatarFixed,
-            nameFixed,
-            loginFixed,
-            bioFixed,
+            // avatarFixed,
+            // nameFixed,
+            // loginFixed,
+            // bioFixed,
             loading,
             mensagemInfo,
 

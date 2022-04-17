@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
+import { Route, Switch } from "react-router";
 import { ContainerMain, ContainerLogo, ContainerNavBar, ContainerLista } from './HeaderStyles';
-// import logo from './logoSite.png';
+import Home from '../../pages/Home/Home';
+import About from '../../pages/About/About';
+import Skills from '../../pages/Skills/Skills';
+
+
 
 export default class Header extends Component {
     render() {
@@ -9,11 +14,23 @@ export default class Header extends Component {
                 <ContainerMain>
                     <ContainerNavBar>
                         <ContainerLista>
-                            <p>Home</p>                                
-                            <p>About</p>
-                            <p>Skills</p>
-                            <p>Projects</p>
-                            <p>Contact</p>
+                            <Switch>
+
+                                <Route exact path="/">
+                                    <Home/>
+                                </Route>
+
+                                <Route path="/about">
+                                    <About/>
+                                </Route>
+
+                                 <Route path="/skilss">
+                                    <Skills/>
+                                </Route>   
+
+                                <p>Projects</p>
+                                <p>Contact</p>
+                            </Switch>
                         </ContainerLista>
                         <ContainerLogo>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
@@ -32,7 +49,7 @@ export default class Header extends Component {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />          
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
                         </ContainerLogo>
                     </ContainerNavBar>
                 </ContainerMain>
