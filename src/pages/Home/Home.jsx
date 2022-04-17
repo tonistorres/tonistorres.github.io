@@ -3,7 +3,6 @@
 import React, { Component } from 'react'
 import Header from '../../components/Header/Header';
 import UserContainer from '../../components/userContainer/CorpoGitHubProfile.jsx';
-
 import PropagateLoader from "react-spinners/PropagateLoader";
 import UserPicture from '../../components/userPicture/UserPicture.jsx';
 import UserDetails from '../../components/userDetails/UserDetails.jsx';
