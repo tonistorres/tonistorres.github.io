@@ -28,7 +28,10 @@ export default class Header extends Component {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
+          
+          
                         </ContainerLogo>
 
 
