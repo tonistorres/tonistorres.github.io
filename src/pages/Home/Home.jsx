@@ -271,8 +271,7 @@ export default class Home extends Component {
                 <ContainerMain>
                     <UserContainer>
                         <HeaderInputContainer>
-                            <HeaderTitle>GitHub</HeaderTitle>
-                            <HeaderInput
+                           <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
                                 placeholder='Digite seu Login GitHub'
                                 onChange={this.handleChange}
