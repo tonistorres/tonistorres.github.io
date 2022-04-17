@@ -12,7 +12,7 @@ export default class About extends Component {
                             <Link to="/home">Home</Link>
                             <Link to="/skill">Skills</Link>
                             <Link to="/project">Projects</Link>
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/contact">Contacts</Link>
                         </ContainerLista>
                         <ContainerLogo>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
