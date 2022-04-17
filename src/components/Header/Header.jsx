@@ -1,12 +1,8 @@
 import React, { Component } from 'react'
-import { Route, Switch } from "react-router";
+import { Link } from 'react-router-dom';
 import { ContainerMain, ContainerLogo, ContainerNavBar, ContainerLista } from './HeaderStyles';
-import Home from '../../pages/Home/Home';
-import About from '../../pages/About/About';
-import Skills from '../../pages/Skills/Skills';
 
-
-
+// https://v5.reactrouter.com/web/api/Switch
 export default class Header extends Component {
     render() {
         return (
@@ -14,23 +10,11 @@ export default class Header extends Component {
                 <ContainerMain>
                     <ContainerNavBar>
                         <ContainerLista>
-                            <Switch>
-
-                                <Route exact path="/">
-                                    <Home/>
-                                </Route>
-
-                                <Route path="/about">
-                                    <About/>
-                                </Route>
-
-                                 <Route path="/skilss">
-                                    <Skills/>
-                                </Route>   
-
-                                <p>Projects</p>
-                                <p>Contact</p>
-                            </Switch>
+                        <Link to="/">Home</Link>
+                            <Link to="/about">About</Link>
+                            <Link to="/skill">Skills</Link>
+                            <Link to="/skill">Projects</Link>
+                            <Link to="/skill">Contact</Link>                            
                         </ContainerLista>
                         <ContainerLogo>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
