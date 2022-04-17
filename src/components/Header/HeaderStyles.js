@@ -71,7 +71,7 @@ export const ContainerLista = styled.section`
   font-size: 28px;
   display: flex;
   justify-content: space-around;
-  width: 28%;
+  width: 48%;
   margin-left: 1%;
   margin-right: 1%;
   border-radius: 15px;
