@@ -78,7 +78,7 @@ export default class Loading extends Component {
                     <ImagemTecnologiaDocker src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="docker" SlideToSlideSlide={ SlideToSlideSlide} />
                 </ContainerLoading>
                 <ContainerAlinhaRow>
-                <ClimbingBoxLoader color={"#F5F5F5"} loading={loading} size={80} />
+                <ClimbingBoxLoader color={"#333"} loading={loading} size={80} />
                 <ImagemFundo src={ImgPerfil}BorderKeyImgFundo={BorderKeyImgFundo}/>
                 <ContainerTimer><Contador/></ContainerTimer>
                 </ContainerAlinhaRow>

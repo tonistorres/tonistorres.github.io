@@ -17,7 +17,7 @@ export const ContainerTimer = styled.span`
   font-size: 78px;
   font-weight: 700;
   margin-left: 2%;
-  color: #fff;
+  color: #333;
 `;
 
 export const ContainerAlinhaRow = styled.section`
@@ -351,7 +351,7 @@ export const ContainerLoading = styled.section`
   @media screen and (max-width: 2300px) and (min-width: 1150px) {
     align-items: center;
     background-color: #f5f5f5;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* background-color: #110c23; */
     font-size: 40px;
     font-weight: 900;

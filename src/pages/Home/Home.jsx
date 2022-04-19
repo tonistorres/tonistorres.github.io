@@ -269,8 +269,8 @@ export default class Home extends Component {
         return (
                 <ContainerMain>
                 <Header />
-                    <UserContainer> {/* Componente Pai que recebe por props componentes Filhos*/}
-                    <DivAgrega>
+                    {/* <UserContainer> Componente Pai que recebe por props componentes Filhos */}
+                    {/* <DivAgrega>
                     <DivInput>
                             <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
@@ -291,8 +291,8 @@ export default class Home extends Component {
                         </DivAgrega>
                         <UserDetails name={nameValue} login={loginValue} bio={bioValue} /> 
                          <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
-                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> 
-                    </UserContainer>
+                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> */}
+                    {/* </UserContainer>  */}
                     {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
                     <Fotter mensagem={mensagemInfo} />
                 </ContainerMain>

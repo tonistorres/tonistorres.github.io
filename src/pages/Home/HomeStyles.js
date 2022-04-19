@@ -9,9 +9,9 @@ export const ContainerMain = styled.section`
   /* 1.0 Intervalo de configuração VERTICAL - AQUI 1 */
   @media screen and (max-width: 2300px) and (min-width: 999px) {
     align-items:center ;
-    border :5px solid red ;
+    border :5px solid #509FA9 ;
     border-radius: 15px;
-    background-color:#999;
+    /* background-image: url("fundoApp.png"); */
     display: flex;
     flex-direction: column;
     height:98vh;

@@ -5,9 +5,9 @@ export const Section = styled.section`
   background: #24292F;
   border-radius: 5px 175px 5px;
   display: flex;
-  height:50vh;
+  height:80vh;
   flex-direction: column;
-  /* justify-content:center ; */
-  width: 45%;`
+  margin-top :35px;
+  width: 35vw;`
 ;
 
