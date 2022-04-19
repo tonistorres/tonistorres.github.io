@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerMain = styled.section`
   /* 1º Intervalo de configuração WDTH */
   @media screen and (max-width: 2300px) and (min-width: 1000px) {
-    /* align-items: center; */
+    /* background-color:red ; */
     display: flex;
     position: fixed;
     height: 69px;
@@ -14,6 +14,7 @@ export const ContainerMain = styled.section`
 
   /* 2º Intervalo de configuração WDTH */
   @media screen and (max-width: 999px) and (min-width: 701px) {
+    background-color:green ;
     align-items: center;
     display: flex;
     height: 69px;

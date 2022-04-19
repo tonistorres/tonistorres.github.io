@@ -9,9 +9,9 @@ export default class ResultadoDaPesquisaProjetosGitHub extends Component {
         const { arrayProps, url } = this.props;
         return (
             <>
-
                 {
                     // https://www.youtube.com/watch?v=rF6guBbfTl0
+                    
                     arrayProps.length ? (
                         <ContainerMap>
                             <table>
@@ -32,7 +32,7 @@ export default class ResultadoDaPesquisaProjetosGitHub extends Component {
                                     ))
                                 }
                             </table>
-                        </ContainerMap>
+                         </ContainerMap>
                     ) : (
                         <ContainerMap>
                             <TitleMap>Sem Repositories</TitleMap>

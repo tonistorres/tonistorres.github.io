@@ -10,8 +10,8 @@ import UserNumbers from '../../components/userNumbers/UserNumbers.jsx';
 import ResultadoDaPesquisaProjetosGitHub from '../../components/ListComponent/ResultadoPesquisaListaProjetos';
 import { FiSearch } from 'react-icons/fi';
 
+import { ContainerMain} from './ContainerMain'
 import {
-    ContainerMain,
     DivInput,
     DivLoad,
     DivImgGitPerfil,
@@ -225,18 +225,10 @@ export default class Home extends Component {
 
     }
 
-
-    /************************************************************************************************* */
-
     limparMensagemInformativa() {
         this.setState({ mensagemInfo: '' });
     }
 
-    // ao clicar no input name o sistema deve
-    // infomar de forma clara para usuário que ele deve
-    // digitar seu user name 
-    //https://reactjs.org/docs/events.html#focus-events
-    //https://reactjs.org/docs/forms.html
     headerInputMensagem(e) {
         const { target } = e;
         target.value = '';
@@ -269,8 +261,8 @@ export default class Home extends Component {
         return (
                 <ContainerMain>
                 <Header />
-                    {/* <UserContainer> Componente Pai que recebe por props componentes Filhos */}
-                    {/* <DivAgrega>
+                    <UserContainer> 
+                    <DivAgrega>
                     <DivInput>
                             <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
@@ -286,14 +278,14 @@ export default class Home extends Component {
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
                         </DivImgGitPerfil>
                         <DivLoad >
-                            <PropagateLoader color={"#E44D26"} loading={loading} size={15} />
+                            <PropagateLoader color={"#ffff"} loading={loading} size={15} />
                         </DivLoad>
                         </DivAgrega>
+                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> 
                         <UserDetails name={nameValue} login={loginValue} bio={bioValue} /> 
-                         <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
-                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> */}
-                    {/* </UserContainer>  */}
-                    {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
+                         {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
+                    </UserContainer> 
+                     {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
                     <Fotter mensagem={mensagemInfo} />
                 </ContainerMain>
         )

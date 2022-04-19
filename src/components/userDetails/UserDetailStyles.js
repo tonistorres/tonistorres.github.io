@@ -7,7 +7,7 @@ export const Container = styled.div`
   /* border:7px solid yellow; */
   display: flex;
   height: 10vh;
-  justify-content: space-around;
+  justify-content: end;
   width: 97%;
   span {
     color: #e44d26;
@@ -19,24 +19,24 @@ export const Container = styled.div`
 /**Container GitHub - Div Usuário e Login - Contida em Container */
 export const ContainerNameLogin=styled.div `
 align-items: center;
-background-color:#24292f ;
-/* border:7px solid red; */
+/* background-color:#395C7E; */
+border:7px solid red;
 border-radius:5px 105px 955px ;
 display: flex;
-justify-content: space-around;
-width: 100%;
+justify-content: end;
+width: 80%;
 `;
 
 /**Container GitHub - Div Name Usuario - Contido em Div Usuário e Login */
 export const Name = styled.h2`
 /* border:15px solid red ; */
-color: whitesmoke;
+color: #fff;
 font-size: 25px;
 font-weight: 700;
 text-align: center;
 width: 100%;
   span {
-    color: whitesmoke;
+    color: #333;
   }
 
 `;
@@ -44,13 +44,13 @@ width: 100%;
 /**Container GitHub - Div Username - Contido em Div Usuário e Login */
 export const Username = styled.h2`
 /* border:15px solid yellow ; */
-  color: whitesmoke;
+  color: #fff;
   font-size: 25px;
   font-weight: 700;
   text-align: center;
   width: 100%;
     span {
-      color: whitesmoke;
+      color: #333;
   }
 
 `;
