@@ -3,10 +3,12 @@ import styled from "styled-components";
 export const ContainerMain = styled.section`
   /* 1º Intervalo de configuração WDTH */
   @media screen and (max-width: 2300px) and (min-width: 1000px) {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
+    position: fixed;
     height: 69px;
     justify-content: center;
+    top: 1px;
     width: 100%;
   }
 

@@ -268,8 +268,9 @@ export default class Home extends Component {
 
         return (
             <div>
-                <Header />
+                
                 <ContainerMain>
+                <Header />
                     <UserContainer> {/* Componente Pai que recebe por props componentes Filhos*/}
                     <DivAgrega>
                     <DivInput>
@@ -289,15 +290,16 @@ export default class Home extends Component {
                         <DivLoad >
                             <PropagateLoader color={"#E44D26"} loading={loading} size={15} />
                         </DivLoad>
-                        {/* <UserDetails name={nameValue} login={loginValue} bio={bioValue} /> */}
-                        {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
-                        {/* <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> */}
+                       
                         </DivAgrega>
+                         {/* <UserDetails name={nameValue} login={loginValue} bio={bioValue} />  */}
+                        {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
+                        {/* <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>  */}
                     </UserContainer>
                     {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
-
+                    <Fotter mensagem={mensagemInfo} />
                 </ContainerMain>
-                <Fotter mensagem={mensagemInfo} />
+                
             </div>
         )
 
