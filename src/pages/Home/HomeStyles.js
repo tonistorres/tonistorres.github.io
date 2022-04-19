@@ -80,7 +80,7 @@ export const HeaderInput = styled.input`
   &:focus {
     outline: none;
     transition: 0.4s eas100;
-    width: 220px;
+    width: 95%;
     }
 `;
 
@@ -102,11 +102,13 @@ export const ContainerColumnMain = styled.section`
   margin-left: 1%;
 `;
 
-export const DivInterna = styled.div `
+export const DivLoad = styled.div `
 display:flex ;
-border:2px solid black ;
-background-color:yellow ;
-width:100% ;
+align-items:center;
+justify-content:center;
+/* border:2px solid black ; */
+/* background-color:yellow ; */
+width:50% ;
 `; 
 
 
@@ -114,9 +116,10 @@ export const DivInput = styled.div `
 display:flex ;
 align-items:center;
 justify-content:center;
-border:2px solid yellowgreen ;
-background-color:yellowgreen   ;
-width:100% ;
+/* border:2px solid yellowgreen ; */
+/* border-radius: 5px 105px 15px ; */
+/* background-color:yellow   ; */
+width:140% ;
 `; 
 
 
@@ -124,23 +127,24 @@ export const DivButton = styled.div `
 display:flex ;
 align-items:center ;
 justify-content:center;
-border:2px solid yellowgreen ;
-background-color: burlywood  ;
-width:100% ;
+/* border:2px solid yellowgreen ; */
+/* background-color: burlywood  ; */
+width:50% ;
 `; 
 
 export const DivImgGitPerfil = styled.div `
 display:flex ;
 align-items:center ;
 justify-content:center;
-border:2px solid yellowgreen ;
-background-color: burlywood  ;
+/* border:2px solid yellowgreen ; */
+/* background-color: burlywood  ; */
 width:50% ;
 `; 
 
 export const DivAgrega = styled.div `
 display:flex ;
-border:5px solid blue ;
-background-color:yellow ;
+/* border:5px solid blue ; */
+/* border-radius: 5px 105px 25px; */
+/* background-color:yellow ; */
 width:100% ;
 `; 

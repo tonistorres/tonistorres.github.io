@@ -13,7 +13,7 @@ import { FiSearch } from 'react-icons/fi';
 import {
     ContainerMain,
     DivInput,
-    DivInterna,
+    DivLoad,
     DivImgGitPerfil,
     DivAgrega,
     HeaderInput,
@@ -286,9 +286,9 @@ export default class Home extends Component {
                         <DivImgGitPerfil>
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
                         </DivImgGitPerfil>
-                        <DivInterna >
-                            <PropagateLoader color={"#E44D26"} loading={loading} size={20} />
-                        </DivInterna>
+                        <DivLoad >
+                            <PropagateLoader color={"#E44D26"} loading={loading} size={15} />
+                        </DivLoad>
                         {/* <UserDetails name={nameValue} login={loginValue} bio={bioValue} /> */}
                         {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
                         {/* <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> */}
