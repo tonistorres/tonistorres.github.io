@@ -12,10 +12,13 @@ import { FiSearch } from 'react-icons/fi';
 
 import {
     ContainerMain,
-    // HeaderTitle,
-    HeaderInputContainer,
+    DivInput,
+    DivInterna,
+    DivImgGitPerfil,
+    DivAgrega,
     HeaderInput,
     HeaderSearchButton,
+    DivButton,
 } from './HomeStyles';
 
 import '../../index.css';
@@ -267,22 +270,29 @@ export default class Home extends Component {
             <div>
                 <Header />
                 <ContainerMain>
-                    <UserContainer>
-                        <HeaderInputContainer>
-                           <HeaderInput
+                    <UserContainer> {/* Componente Pai que recebe por props componentes Filhos*/}
+                    <DivAgrega>
+                    <DivInput>
+                            <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
                                 placeholder='Digite seu Login GitHub'
                                 onChange={this.handleChange}
                                 value={this.state.searchedValue}
                             />
+                        </DivInput>
+                        <DivButton>
                             <HeaderSearchButton value={searchedValue} onClick={this.handleGetUserDataTratado}><FiSearch /></HeaderSearchButton>
+                        </DivButton>
+                        <DivImgGitPerfil>
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
+                        </DivImgGitPerfil>
+                        <DivInterna >
                             <PropagateLoader color={"#E44D26"} loading={loading} size={20} />
-                        </HeaderInputContainer>
-
-                        <UserDetails name={nameValue} login={loginValue} bio={bioValue} />
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
-                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>
+                        </DivInterna>
+                        {/* <UserDetails name={nameValue} login={loginValue} bio={bioValue} /> */}
+                        {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
+                        {/* <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> */}
+                        </DivAgrega>
                     </UserContainer>
                     {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
 

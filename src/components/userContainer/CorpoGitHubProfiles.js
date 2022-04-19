@@ -5,7 +5,7 @@ import styled from "styled-components";
 //https://developer.mozilla.org/pt-BR/docs/Web/CSS/overflow
 export const Section = styled.section`
 align-items:center ;
-  background: white;
+  background: red;
   border-radius: 5px 175px 5px;
   display: flex;
   flex-direction: column;
@@ -16,3 +16,4 @@ align-items:center ;
   margin-right: 1%;
   width: 45%;
 `;
+

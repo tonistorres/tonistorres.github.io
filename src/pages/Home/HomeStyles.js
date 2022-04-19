@@ -85,12 +85,10 @@ export const HeaderInput = styled.input`
 `;
 
 export const HeaderSearchButton = styled.button`
-  width: 185px;
-  height: 70px;
+  width: 40%;
+  height:50%;
   border-radius: 50%;
-  border: none;
   background: #fff;
-  margin-left: 25px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -104,3 +102,45 @@ export const ContainerColumnMain = styled.section`
   margin-left: 1%;
 `;
 
+export const DivInterna = styled.div `
+display:flex ;
+border:2px solid black ;
+background-color:yellow ;
+width:100% ;
+`; 
+
+
+export const DivInput = styled.div `
+display:flex ;
+align-items:center;
+justify-content:center;
+border:2px solid yellowgreen ;
+background-color:yellowgreen   ;
+width:100% ;
+`; 
+
+
+export const DivButton = styled.div `
+display:flex ;
+align-items:center ;
+justify-content:center;
+border:2px solid yellowgreen ;
+background-color: burlywood  ;
+width:100% ;
+`; 
+
+export const DivImgGitPerfil = styled.div `
+display:flex ;
+align-items:center ;
+justify-content:center;
+border:2px solid yellowgreen ;
+background-color: burlywood  ;
+width:50% ;
+`; 
+
+export const DivAgrega = styled.div `
+display:flex ;
+border:5px solid blue ;
+background-color:yellow ;
+width:100% ;
+`; 
