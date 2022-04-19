@@ -9,18 +9,15 @@ export const ContainerMain = styled.section`
   /* 1.0 Intervalo de configuração VERTICAL - AQUI 1 */
   @media screen and (max-width: 2300px) and (min-width: 999px) {
     align-items:center ;
-    /* border: 12px solid #24292F; */
+    border :5px solid red ;
     border-radius: 15px;
-    /* border-bottom: 10px solid #24292F; */
-    /* border-bottom: 10px solid red; */
+    background-color:#999;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height:98vh;
     justify-content: center;
-    margin-left: 8px;
-    margin-top: 12px;
-    width: 98%;
-    height: 83vh;
-    
+    margin-left:5px ;
+    width: 99vw;       
   }
 
 `;

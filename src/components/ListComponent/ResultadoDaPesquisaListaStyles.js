@@ -12,15 +12,13 @@ export const ContainerMap = styled.div`
   font-size: 18px;
   font-weight: 200;
   flex-direction: column;
-  height:100vh ;
   line-height: 0.8;
   justify-content: space-around;
   margin-top: 10px;
   overflow: scroll;
   overflow-x: hidden;
   padding-top:25px;
-  width: 70%;
-  td {
+    td {
     font-size: 16px;
     letter-spacing:2px ;
     text-align: center;
