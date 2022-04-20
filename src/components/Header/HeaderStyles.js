@@ -112,7 +112,7 @@ export const ContainerLogo = styled.section`
     }
   }
 
-  /* 2º Intervalo de configuração WDTH */
+
   @media screen and (max-width: 1149px) and (min-width: 1000px) {
     align-items: center;
     background-color: #f5f5f5;
@@ -121,37 +121,10 @@ export const ContainerLogo = styled.section`
     justify-content: space-around;
     height: 70px;
     width: 90%;
-    /* border: 1px solid black; */
     img {
       width: 50px;
       height: 50px;
     }
   }
 
-  /* 3º Intervalo de configuração WDTH */
-  @media screen and (max-width: 999px) and (min-width: 600px) {
-    align-items: center;
-    background-color: #f5f5f5;
-    color: #777;
-    display: flex;
-    height: 70px;
-    justify-content: space-around;
-    margin-top: 15px;
-    width: 100%;
-
-    img {
-      width: 48px;
-      height: 48px;
-    }
-  }
-
-  /* 4º Intervalo de configuração WDTH */
-  @media screen and (max-width: 599px) and (min-width: 280px) {
-    display: none;
-  }
-
-  /* 4º Intervalo de configuração WDTH */
-  @media screen and (max-width: 279px) and (min-width: 1px) {
-    display: none;
-  }
 `;
