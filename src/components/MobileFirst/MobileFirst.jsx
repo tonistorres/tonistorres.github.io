@@ -25,14 +25,14 @@ export default class MobileFirst extends Component {
         <DivResponsivaColumnCorpo>
         <TitleBio>Bio: Tonis Torres</TitleBio>
           <DivConteudoCorpo>
-        <h2> Sobre:</h2>
+        <TitleBio> Sobre:</TitleBio>
           <p>
             Tecnólogo por definição, sou apaixonado por linguagens de máquinas e 
             busco constantemente me reciclar, fazendo cursos, me relacionando com
             profissionais experientes, colegas de faculdade, professores etc.
             Aprender a aprender, esse é o lema que carrego comigo, e me esforço 
             sempre à melhorar como profissional e pessoa desenvolvedora que sou.
-            </p>
+          </p>
             <p>
            Fullstack web developing student at ░ Trybe ░ Unix |
            Bash | Git | GitHub | HTML | CSS | Java Script | DOM | Unit Testing | 
