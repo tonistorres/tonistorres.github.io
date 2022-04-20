@@ -22,8 +22,6 @@ import "../../index.css";
 import client from "../../services/client";
 import Fotter from "../../components/Fotter/Fotter";
 
-// import ContainerListaDeProjetos from '../../ListProjetos/ContainerListaProjetos';
-
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -231,14 +229,6 @@ export default class Home extends Component {
       loginValue,
       repoPublicValue,
       bioValue,
-      followersValue,
-      followingValue,
-      arrayValue,
-      // avatarFixed,
-      // nameFixed,
-      // loginFixed,
-      // bioFixed,
-      loading,
       mensagemInfo,
     } = this.state;
 
