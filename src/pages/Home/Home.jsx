@@ -229,7 +229,8 @@ export default class Home extends Component {
       loginValue,
       repoPublicValue,
       bioValue,
-      mensagemInfo,
+      arrayValue,
+       mensagemInfo,
     } = this.state;
 
     return (

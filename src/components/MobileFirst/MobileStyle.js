@@ -8,7 +8,6 @@ export const ContainerResponsivo = styled.div`
 
 @media screen and (max-width: 1499px) and (min-width: 1px) {
   display: flex;
-  flex-direction: column;
   align-items: center;
   background-color: yellow;
   width: 100%;
@@ -17,4 +16,22 @@ export const ContainerResponsivo = styled.div`
   overflow-x: hidden;
 }
 
+`;
+
+export const DivResponsivaColumn = styled.div`
+
+@media screen and (max-width: 2300px) and (min-width: 1500px) {
+    display:none;
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1px) {
+display:flex ;
+border:5px solid black ;
+background-color:black ;
+flex-direction: column;
+align-items:center;
+justify-content:center;
+width:50%;
+height:50vh ;
+}
 `;
