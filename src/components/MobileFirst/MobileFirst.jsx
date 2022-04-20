@@ -1,7 +1,14 @@
 
 import React, { Component } from 'react'
-import { ContainerResponsivo, DivResponsivaColumn} from "./MobileStyle";
+import { 
+  ContainerResponsivo,
+  DivResponsivaColumnPerfil,
+  DivResponsivaColumnCorpo,
+  DivImg,
+  ImgPadraoPerfil
 
+} from "./MobileStyle";
+import perfilLinkedin from '../../assets/img/perfil.png';
 
 export default class MobileFirst extends Component {
 
@@ -9,8 +16,8 @@ export default class MobileFirst extends Component {
     return (
       <ContainerResponsivo>
         
-        <DivResponsivaColumn>
-          <div><img src="" alt="" /></div>
+        <DivResponsivaColumnPerfil>
+          <DivImg><ImgPadraoPerfil src={ perfilLinkedin } alt="Foto Perfil" /></DivImg>
           <div><h2>Bio: Tonis Torres</h2></div>
           <div>
             <p>
@@ -19,9 +26,9 @@ export default class MobileFirst extends Component {
            React Testing Library | React |
             </p>
           </div>
-        </DivResponsivaColumn>
+        </DivResponsivaColumnPerfil>
         
-        <DivResponsivaColumn>
+        <DivResponsivaColumnCorpo>
             <h2> Sobre:</h2>
             <p>
             Tecnólogo por definição, sou apaixonado por linguagens de máquinas e 
@@ -30,7 +37,7 @@ export default class MobileFirst extends Component {
             Aprender a aprender, esse é o lema que carrego comigo, e me esforço 
             sempre à melhorar como profissional e pessoa desenvolvedora que sou.
             </p>
-        </DivResponsivaColumn>
+        </DivResponsivaColumnCorpo>
         
        </ContainerResponsivo> 
     )
