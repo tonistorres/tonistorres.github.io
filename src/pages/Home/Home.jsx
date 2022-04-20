@@ -3,7 +3,6 @@
 import React, { Component } from 'react'
 import Header from '../../components/Header/Header';
 import UserContainer from '../../components/userContainer/CorpoGitHubProfile.jsx';
-
 import PropagateLoader from "react-spinners/PropagateLoader";
 import UserPicture from '../../components/userPicture/UserPicture.jsx';
 import UserDetails from '../../components/userDetails/UserDetails.jsx';
@@ -11,12 +10,15 @@ import UserNumbers from '../../components/userNumbers/UserNumbers.jsx';
 import ResultadoDaPesquisaProjetosGitHub from '../../components/ListComponent/ResultadoPesquisaListaProjetos';
 import { FiSearch } from 'react-icons/fi';
 
+import { ContainerMain} from './ContainerMain'
 import {
-    ContainerMain,
-    // HeaderTitle,
-    HeaderInputContainer,
+    DivInput,
+    DivLoad,
+    DivImgGitPerfil,
+    DivAgrega,
     HeaderInput,
     HeaderSearchButton,
+    DivButton,
 } from './HomeStyles';
 
 import '../../index.css';
@@ -223,18 +225,10 @@ export default class Home extends Component {
 
     }
 
-
-    /************************************************************************************************* */
-
     limparMensagemInformativa() {
         this.setState({ mensagemInfo: '' });
     }
 
-    // ao clicar no input name o sistema deve
-    // infomar de forma clara para usuário que ele deve
-    // digitar seu user name 
-    //https://reactjs.org/docs/events.html#focus-events
-    //https://reactjs.org/docs/forms.html
     headerInputMensagem(e) {
         const { target } = e;
         target.value = '';
@@ -265,32 +259,38 @@ export default class Home extends Component {
         } = this.state;
 
         return (
-            <div>
-                <Header />
-                <ContainerMain>
-                    <UserContainer>
-                        <HeaderInputContainer>
-                           <HeaderInput
+            <>
+                    <Header />
+            <ContainerMain>
+                    <UserContainer> 
+                    <DivAgrega>
+                    <DivInput>
+                            <HeaderInput
                                 onFocus={(e) => { this.headerInputMensagem(e) }}
                                 placeholder='Digite seu Login GitHub'
                                 onChange={this.handleChange}
                                 value={this.state.searchedValue}
                             />
+                        </DivInput>
+                        <DivButton>
                             <HeaderSearchButton value={searchedValue} onClick={this.handleGetUserDataTratado}><FiSearch /></HeaderSearchButton>
+                        </DivButton>
+                        <DivImgGitPerfil>
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
-                            <PropagateLoader color={"#E44D26"} loading={loading} size={20} />
-                        </HeaderInputContainer>
-
-                        <UserDetails name={nameValue} login={loginValue} bio={bioValue} />
-                        <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} />
-                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub>
-                    </UserContainer>
-                    {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
-
+                        </DivImgGitPerfil>
+                        <DivLoad >
+                            <PropagateLoader color={"#ffff"} loading={loading} size={15} />
+                        </DivLoad>
+                        </DivAgrega>
+                        <ResultadoDaPesquisaProjetosGitHub arrayProps={arrayValue} url={repoPublicValue}></ResultadoDaPesquisaProjetosGitHub> 
+                        <UserDetails name={nameValue} login={loginValue} bio={bioValue} /> 
+                         {/* <UserNumbers repositories={repoPublicValue} followers={followersValue} following={followingValue} /> */}
+                    </UserContainer> 
+                     {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
+                    <Fotter mensagem={mensagemInfo} />
                 </ContainerMain>
-                <Fotter mensagem={mensagemInfo} />
-            </div>
-        )
+</>                
 
+        )
     }
 }

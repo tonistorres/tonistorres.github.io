@@ -1,6 +1,4 @@
-import {
-    Section
-} from './CorpoGitHubProfiles';
+import { Section } from './CorpoGitHubProfiles';
 
 const UserContainer = props => (
     <Section>

@@ -5,10 +5,11 @@ import styled, { keyframes } from "styled-components";
 
 export const ContainerRedeSociais = styled.section`
   /* 1º Intervalo de configuração WDTH */
-  @media screen and (max-width: 2300px) and (min-width: 1000px) {
+  @media screen and (max-width: 2300px) and (min-width: 1410px) {
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: #509FA9;
     bottom: 1px;
+    color: #f5f5f5;
     display: flex;
     height: 37px;
     justify-content: space-between;
@@ -19,8 +20,12 @@ export const ContainerRedeSociais = styled.section`
     right: 0px;
     width: 100%;
   }
+
+  @media screen and (max-width: 1409px) and (min-width: 1px) {
+    display:none;
+  }
   /* 2º Intervalo de configuração WDTH */
-  @media screen and (max-width: 999px) and (min-width: 701px) {
+  @media screen and (max-width: 333px) and (min-width: 701px) {
     align-items: center;
     bottom: 1px;
     display: flex;
@@ -122,9 +127,9 @@ img[src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=yo
 export const SpanMensagemInformativa =styled.span `
 animation: ${(props) => props.BorderKeyFumcaInformativa} 12s ease infinite;
 align-items: center;
-background-color: #24292F;
+background-color: #509FA9;
 border-radius: 15px;
-color:#999;
+color:#333;
 display: flex;
 font-size: 30px;
 font-weight: 500;
@@ -140,85 +145,85 @@ width: 100%;
 export const BorderKeyFumcaInformativa = keyframes`
   0%{
     border-radius: 15px;
-    background: #24292F;
-    color:#999;
+    background: #509FA9;
+    color:#333;
     box-shadow:0 0 30px #ffff52;
 
   }
 
   10%{
     border-radius: 20px;
-    background: #24292F;
-    color:#999;
+    background: #509FA9;
+    color:#333;
     box-shadow:0 0 40px #ffff52;
   }
 
 
   20%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 25px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 50px #ffff52;
   }
 
 
   30%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 45px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 60px #ffff52;
   }
 
   40%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 45px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 70px #ffff52;
   }
 
 
   50%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 45px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 80px #ffff52;
   }
 
   60%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 40px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 90px #ffff52;
   }
 
 
   70%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 35px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 100px #ffff52;
   }
 
 
   80%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 25px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 110px #ffff52;
   }
 
 
   90%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 20px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 120px #ffff52;
   }
 
   100%{
-    background: #24292F;
+    background: #509FA9;
     border-radius: 10px;
-    color:#999;
+    color:#333;
     box-shadow:0 0 19px #333;
   }
 

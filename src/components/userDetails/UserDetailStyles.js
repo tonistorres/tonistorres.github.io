@@ -1,42 +1,40 @@
 import styled from "styled-components";
 
-/***Container GitHub - Div Principal -Main */
+
 export const Container = styled.div`
+
   align-items: center;
-  /* background-color:#24292f; */
-  /* border:7px solid yellow; */
   display: flex;
   height: 10vh;
-  justify-content: space-around;
+  justify-content: end;
   width: 97%;
   span {
     color: #e44d26;
-    font-weight: 800;
+    font-weight: 800;    
   }
+
 
 `;
 
-/**Container GitHub - Div Usuário e Login - Contida em Container */
+
 export const ContainerNameLogin=styled.div `
 align-items: center;
-background-color:#24292f ;
-/* border:7px solid red; */
 border-radius:5px 105px 955px ;
 display: flex;
-justify-content: space-around;
-width: 100%;
+justify-content: end;
+width: 80%;
 `;
 
 /**Container GitHub - Div Name Usuario - Contido em Div Usuário e Login */
 export const Name = styled.h2`
 /* border:15px solid red ; */
-color: whitesmoke;
-font-size: 25px;
+color: #fff;
+font-size: 15px;
 font-weight: 700;
 text-align: center;
 width: 100%;
   span {
-    color: whitesmoke;
+    color: #333;
   }
 
 `;
@@ -44,13 +42,13 @@ width: 100%;
 /**Container GitHub - Div Username - Contido em Div Usuário e Login */
 export const Username = styled.h2`
 /* border:15px solid yellow ; */
-  color: whitesmoke;
-  font-size: 25px;
+  color: #fff;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   width: 100%;
     span {
-      color: whitesmoke;
+      color: #333;
   }
 
 `;
