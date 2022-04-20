@@ -274,10 +274,10 @@ export default class Home extends Component {
                         </DivInput>
                         <DivButton>
                             <HeaderSearchButton value={searchedValue} onClick={this.handleGetUserDataTratado}><FiSearch /></HeaderSearchButton>
-                        </DivButton>
+                        </DivButton> 
                         <DivImgGitPerfil>
                             <UserPicture url={avatarValue} alternativeText="Imagem Perfil" />
-                        </DivImgGitPerfil>
+                        </DivImgGitPerfil> 
                         <DivLoad >
                             <PropagateLoader color={"#ffff"} loading={loading} size={15} />
                         </DivLoad>
