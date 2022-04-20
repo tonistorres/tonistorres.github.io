@@ -3,16 +3,14 @@
 import React, { Component } from "react";
 import Header from "../../components/Header/Header";
 import UserContainer from "../../components/userContainer/CorpoGitHubProfile.jsx";
-import PropagateLoader from "react-spinners/PropagateLoader";
 import UserPicture from "../../components/userPicture/UserPicture.jsx";
 import UserDetails from "../../components/userDetails/UserDetails.jsx";
-import UserNumbers from "../../components/userNumbers/UserNumbers.jsx";
+import MobileFirt from "../../components/MobileFirst/MobileFirst";
 import ResultadoDaPesquisaProjetosGitHub from "../../components/ListComponent/ResultadoPesquisaListaProjetos";
 import { FiSearch } from "react-icons/fi";
 
 import { ContainerMain } from "./ContainerMain";
 import {
-  DivLoad,
   DivImgGitPerfil,
   DivAgrega,
   HeaderInput,
@@ -248,6 +246,7 @@ export default class Home extends Component {
       <>
         <Header />
         <ContainerMain>
+          <MobileFirt/>
           <UserContainer>
             <DivAgrega>
               <HeaderInput

@@ -1,15 +1,14 @@
 import styled, { keyframes } from "styled-components";
 
 export const ContainerRedeSociais = styled.section`
-
-  @media screen and (max-width: 2300px) and (min-width: 1500px) {
+  @media screen and (max-width: 2300px) and (min-width: 1px) {
     align-items: center;
     background-color: #509FA9;
     bottom: 1px;
     color: #f5f5f5;
     display: flex;
     height: 37px;
-    justify-content: space-between;
+    justify-content: space-around;
     left: 0px;
     margin: 0 10px;
     margin-bottom: 0px;
@@ -17,12 +16,10 @@ export const ContainerRedeSociais = styled.section`
     right: 0px;
     width: 100%;
   }
-
-  @media screen and (max-width: 1499px) and (min-width: 1px) {
-    display:none;
-  }
 `;
+
 export const SpanMensagemInformativa =styled.span `
+@media screen and (max-width: 2300px) and (min-width: 1500px) {
 animation: ${(props) => props.BorderKeyFumcaInformativa} 12s ease infinite;
 align-items: center;
 background-color: #509FA9;
@@ -36,8 +33,12 @@ justify-content: center;
 margin-bottom: 8px;
 margin-right: 28px;
 margin-left: 40px;
-/* border: 2px solid yellow; */
 width: 100%;
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1px) {
+    display:none;
+  }
 `;
 
 export const BorderKeyFumcaInformativa = keyframes`
