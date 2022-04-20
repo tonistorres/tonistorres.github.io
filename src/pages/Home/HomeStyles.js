@@ -1,77 +1,62 @@
 import styled from "styled-components";
 
 export const HeaderInput = styled.input`
-  background-color:whitesmoke;
-  border-radius: 5px 105px 25px;
-  border: none;
-  color: #24292F;
-  font-size: 19px;
-  font-weight: 500;
-  height: 60px;
-  padding: 0 16px;
-  transition: 0.4s ease;
-  text-align: center;
-  width: 100%;
-  &:focus {
-    outline: none;
-    transition: 0.4s eas100;
-    width: 95%;
-    }
+align-items:center;
+background-color:whitesmoke ;
+border-radius: 5px 105px 25px;
+color: #24292F;
+display:flex ;
+font-size: 19px;
+font-weight: 500;
+height:50% ;
+justify-content:center;
+margin-left:2% ;
+text-align:center ;
+width:60% ;
 `;
 
 export const HeaderSearchButton = styled.button`
-  width: 50%;
-  height:50%;
-  border-radius: 50%;
-  background: #fff;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
+  background: #fff;
+  border-radius: 50%;
   color: #24292F;
+  display: flex;
+  height:55%;
+  justify-content:center;
+  width: 50%;
 `;
 
 export const DivLoad = styled.div `
-display:flex ;
 align-items:center;
+border: 7px solid black  ;
+display:flex ;
 justify-content:center;
 width:50% ;
 `; 
-
-
-export const DivInput = styled.div `
-display:flex ;
-border:5px solid blue ;
-background-color:#395C7E ;
-align-items:center;
-justify-content:center;
-width:140% ;
-`; 
-
 
 export const DivButton = styled.div `
-background-color:#395C7E;
-display:flex ;
 align-items:center ;
-justify-content:center;
-width:50% ;
+display:flex ;
+height:100%;
+justify-content:start;
+width:17% ;
 `; 
 
 export const DivImgGitPerfil = styled.div `
-background-color:#395C7E;
+align-items:center ;
 display:flex ;
-align-items:center ;
-justify-content:center;
-width:50% ;
+height:100%;
+justify-content:start;
+width:20% ;
 `; 
-
+// tópico interessante: https://pt.stackoverflow.com/questions/168620/como-definir-height-em-percentagem-usando-css
 export const DivAgrega = styled.div `
-@media screen and (max-width: 2300px) and (min-width: 1px) {
+@media screen and (max-width: 2300px) and (min-width: 1500px) {
 align-items:center ;
-border:5px solid red;
 background-color:#395C7E;
 border-radius: 5px 105px 5px;
 display:flex ;
-justify-content:space-between;
+height:10vh ;
 width:100% ;  
 }
 
