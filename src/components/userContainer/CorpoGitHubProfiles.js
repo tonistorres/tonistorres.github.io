@@ -9,18 +9,23 @@ export const Section = styled.section `
   height:80vh;
   flex-direction: column;
   margin-top :35px;
-  width: 38vw;  
+  width: 30vw;  
 }
 
-@media screen and (max-width: 1599px) and (min-width: 800px) {
+@media screen and (max-width: 1670px) and (min-width: 800px) {
   align-items:center;
-  background: #395C79;
+  background: #395C7E;
   border-radius: 5px 175px 5px;
   display: flex;
   height:80vh;
   flex-direction: column;
   margin-top :35px;
-  width: 45vw;  
+  width: 34vw;  
+}
+
+@media screen and (max-width: 1170px) and (min-width: 800px) {
+  display: flex;
+  width: 59vw;  
 }
 
 `;

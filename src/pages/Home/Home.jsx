@@ -259,8 +259,9 @@ export default class Home extends Component {
         } = this.state;
 
         return (
-                <ContainerMain>
-                <Header />
+            <>
+                    <Header />
+            <ContainerMain>
                     <UserContainer> 
                     <DivAgrega>
                     <DivInput>
@@ -288,6 +289,8 @@ export default class Home extends Component {
                      {/* <ContainerListaDeProjetos url={avatarFixed} name={nameFixed} login={loginFixed} bio={bioFixed} /> */}
                     <Fotter mensagem={mensagemInfo} />
                 </ContainerMain>
+</>                
+
         )
     }
 }

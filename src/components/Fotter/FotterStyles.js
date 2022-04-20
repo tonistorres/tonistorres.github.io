@@ -5,7 +5,7 @@ import styled, { keyframes } from "styled-components";
 
 export const ContainerRedeSociais = styled.section`
   /* 1º Intervalo de configuração WDTH */
-  @media screen and (max-width: 2300px) and (min-width: 1000px) {
+  @media screen and (max-width: 2300px) and (min-width: 1410px) {
     align-items: center;
     background-color: #509FA9;
     bottom: 1px;
@@ -19,6 +19,10 @@ export const ContainerRedeSociais = styled.section`
     position: fixed;
     right: 0px;
     width: 100%;
+  }
+
+  @media screen and (max-width: 1409px) and (min-width: 1px) {
+    display:none;
   }
   /* 2º Intervalo de configuração WDTH */
   @media screen and (max-width: 333px) and (min-width: 701px) {

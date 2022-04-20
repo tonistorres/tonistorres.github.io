@@ -20,7 +20,7 @@ export const HeaderInput = styled.input`
 `;
 
 export const HeaderSearchButton = styled.button`
-  width: 40%;
+  width: 50%;
   height:50%;
   border-radius: 50%;
   background: #fff;
@@ -40,6 +40,7 @@ width:50% ;
 
 export const DivInput = styled.div `
 display:flex ;
+border:5px solid blue ;
 background-color:#395C7E ;
 align-items:center;
 justify-content:center;
@@ -64,8 +65,14 @@ width:50% ;
 `; 
 
 export const DivAgrega = styled.div `
+@media screen and (max-width: 2300px) and (min-width: 1px) {
+align-items:center ;
+border:5px solid red;
 background-color:#395C7E;
 border-radius: 5px 105px 5px;
 display:flex ;
-width:100% ;
+justify-content:space-between;
+width:100% ;  
+}
+
 `; 
