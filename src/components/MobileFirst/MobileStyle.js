@@ -51,7 +51,7 @@ border-radius: 5px 175px 5px ;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:40%;
+width:43%;
 height:50% ;
 }
 
@@ -173,11 +173,10 @@ font-size:17px ;
 font-weight:400;
 letter-spacing:0.5px ;
 text-align: justify;
-text-indent: 6%;
+text-indent: 8%;
 text-justify: inter-word;
-margin-left:13% ;
+margin-left:17% ;
 margin-right:10% ;
-
 }
 
 ::-webkit-scrollbar{
