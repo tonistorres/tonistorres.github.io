@@ -52,13 +52,13 @@ export const ContainerLista = styled.section`
     }
   }
   
-  @media screen and (max-width: 1539px) and (min-width: 1346px) {
+  @media screen and (max-width: 1539px) and (min-width: 1345px) {
     
     display: none;
     
     }
   
-    @media screen and (max-width: 1345px) and (min-width: 1px) {
+    @media screen and (max-width: 1344px) and (min-width: 1px) {
       align-items: center;
     background-color: #509FA9;
     color: #f5f5f5;
@@ -90,7 +90,7 @@ export const ContainerLista = styled.section`
 `;
 
 export const ContainerLogo = styled.section`
-  @media screen and (max-width: 2300px) and (min-width: 1344px) {
+  @media screen and (max-width: 2300px) and (min-width: 1345px) {
     align-items: center;
     background-color: #f5f5f5;
     color: #777;
@@ -105,7 +105,7 @@ export const ContainerLogo = styled.section`
     }
   }
 
-  @media screen and (max-width: 2300px) and (min-width: 1344px) {
+  @media screen and (max-width: 1344px) and (min-width: 1px) {
     display:none;
   }
 `;
