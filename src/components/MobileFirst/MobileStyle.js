@@ -51,7 +51,7 @@ border-radius: 5px 175px 5px ;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:30%;
+width:40%;
 height:50% ;
 }
 
