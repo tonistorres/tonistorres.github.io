@@ -26,6 +26,7 @@ export default class MobileFirst extends Component {
         <TitleBio>Bio: Tonis Torres</TitleBio>
           <DivConteudoCorpo>
         <TitleBio> Sobre:</TitleBio>
+       
           <p>
             Tecnólogo por definição, sou apaixonado por linguagens de máquinas e 
             busco constantemente me reciclar, fazendo cursos, me relacionando com
@@ -38,6 +39,7 @@ export default class MobileFirst extends Component {
            Bash | Git | GitHub | HTML | CSS | Java Script | DOM | Unit Testing | 
            React Testing Library | React |
             </p>
+            <hr/>
           </DivConteudoCorpo>  
         </DivResponsivaColumnCorpo>
         

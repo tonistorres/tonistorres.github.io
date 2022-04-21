@@ -9,7 +9,7 @@ export const ContainerResponsivo = styled.div`
 @media screen and (max-width: 1499px) and (min-width: 1px) {
   
   align-items: center;
-  border:5px solid black;
+  /* border:5px solid black;     */
   display: flex;
   /* flex-direction:column ; */
   justify-content:center ;
@@ -48,7 +48,7 @@ export const DivResponsivaColumnCorpo= styled.div`
     display:none;
 }
 
-@media screen and (max-width: 1499px) and (min-width: 1px) {
+@media screen and (max-width: 1499px) and (min-width: 1246px) {
 display:flex ;
 /* border:5px solid black ; */
 border-radius: 5px 175px 5px ;
@@ -58,6 +58,18 @@ align-items:center;
 justify-content:center;
 width:40%;
 height:70%;
+}
+
+@media screen and (max-width: 1245px) and (min-width: 990px) {
+display:flex ;
+/* border:5px solid black ; */
+border-radius: 5px 175px 5px ;
+background-color:#395C7E;
+flex-direction: column;
+align-items:center;
+justify-content:center;
+width:40%;
+height:85%;
 }
 `;
 
