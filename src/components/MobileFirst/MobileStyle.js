@@ -65,7 +65,7 @@ border-radius: 5px 175px 5px ;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:65%;
+width:70%;
 height:50% ;
 }
 @media screen and (max-width: 810px) and (min-width: 1px) {
@@ -113,7 +113,7 @@ background-color:#395C7E;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:75%;
+width:80%;
 height:85%;
 }
 
