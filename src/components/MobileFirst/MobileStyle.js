@@ -14,7 +14,7 @@ export const ContainerResponsivo = styled.div`
   /* flex-direction:column ; */
   justify-content:center ;
   margin-top:10px;
-  width: 100%;
+  width: 79%;
   height: 100vh;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -89,7 +89,7 @@ background-color:#395C7E;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:50%;
+width:55%;
 height:70%;
 }
 
@@ -165,7 +165,7 @@ background-color:whitesmoke ;
 flex-direction: column;
 overflow: scroll; 
 overflow-x: hidden;
-width:95%;
+width:80%;
 height:70%;
 
 p{
