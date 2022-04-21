@@ -118,7 +118,7 @@ height:85%;
 }
 
 
-@media screen and (max-width: 687px) and (min-width: 501px) {
+@media screen and (max-width: 687px) and (min-width: 1px) {
 display:flex ;  
 /* border:5px solid black ; */
 border-radius: 5px 175px 5px ;
