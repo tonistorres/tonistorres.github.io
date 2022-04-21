@@ -173,13 +173,12 @@ export default class Home extends Component {
     console.log("passei 2");
     clearTimeout(this.intervalId);
   }
+
   mensagemUsuario() {
     this.setState({
       mensagemInfo: "Verifique se você fez uma pesquisa de um valor nulo 🕵️",
     });
   }
-
-  // Verificar se login do usuário foi digitado corretamente
 
   loginDigitadoCorretamente() {
     console.log("passei 1");
