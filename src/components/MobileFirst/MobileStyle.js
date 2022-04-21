@@ -175,7 +175,7 @@ letter-spacing:0.5px ;
 text-align: justify;
 text-indent: 6%;
 text-justify: inter-word;
-margin-left:10% ;
+margin-left:13% ;
 margin-right:10% ;
 
 }
@@ -186,20 +186,20 @@ margin-right:10% ;
   }
 
   ::-webkit-scrollbar-track{
-    background-color:#999;
+    background-color:#509FA9;
     border-radius:5px 175px 5px;
     width:20px;
 
   }
 
   ::-webkit-scrollbar-thumb{
-      background-color:yellow;
+      background-color:#247FC3;
       border-radius:5px 175px 5px;
   }
 
 
   ::-webkit-scrollbar-thumb:hover{
-      background-color:whitesmoke;
+      background-color:#395C7E;
       border-radius:5px 175px 5px;
   }
 
