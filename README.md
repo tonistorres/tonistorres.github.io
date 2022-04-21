@@ -1,5 +1,11 @@
 ![CRUD NODE/EXPRESS](./src/assets/img/portii.png)
+
+> [Publicação Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6922729462031601664/)
+
+> [Link Portifólio](https://tonistorres.github.io/)
+
 ## Projeto Portifólio Pessoal:
+
 
 ### o que é um portifólio pessoal?
 
