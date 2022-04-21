@@ -65,7 +65,7 @@ border-radius: 5px 175px 5px ;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:40%;
+width:50%;
 height:50% ;
 }
 @media screen and (max-width: 810px) and (min-width: 1px) {
