@@ -186,25 +186,25 @@ margin-right:10% ;
   }
 
   ::-webkit-scrollbar-track{
-    background-color:#509FA9;
+    background-color:#395C79;
     border-radius:5px 175px 5px;
     width:20px;
 
   }
 
   ::-webkit-scrollbar-thumb{
-      background-color:#247FC3;
+      background-color:#657A70;
       border-radius:5px 175px 5px;
   }
 
 
   ::-webkit-scrollbar-thumb:hover{
-      background-color:#395C7E;
+      background-color:#50A0A9;
       border-radius:5px 175px 5px;
   }
 
   ::-webkit-scrollbar-button{
-      background-color:#227DC3;
+      background-color:#50A0A9;
       padding:2px 2px ;
       border-radius:15px 55px 5px;
   }
