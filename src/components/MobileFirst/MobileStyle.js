@@ -101,8 +101,8 @@ background-color:#395C7E;
 flex-direction: column;
 align-items:center;
 justify-content:center;
-width:40%;
-height:85%;
+width:55%;
+height:70%;
 }
 
 @media screen and (max-width: 990px) and (min-width: 688px) {
