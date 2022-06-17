@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <ContainerMain>
                     <ContainerNavBar>
                         <ContainerLista>
-                            <Link to="/">Home</Link>
+                            <Link to="/">Portifólio Pessoal 1.0</Link>
                             {/* <Link to="/about">About</Link> */}
                             {/* <Link to="/project">Projects</Link>                             */}
                         </ContainerLista>
